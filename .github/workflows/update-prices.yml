@@ -1,0 +1,59 @@
+name: Update prices
+
+on:
+  # Cron time is UTC. UTC 21/3/9/15 = JST 6/12/18/24 (JST = UTC+9).
+  schedule:
+    - cron: '0 21,3,9,15 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  # Needed to dispatch deploy-pages.yml after pushing (see the trigger step).
+  actions: write
+
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          # Pinned to 22 LTS: Node 24.0/24.1 have a test runner regression.
+          node-version: '22'
+
+      - name: Fetch prices and regenerate products.json
+        run: node scripts/update.mjs
+        env:
+          CREATORS_CLIENT_ID: ${{ secrets.CREATORS_CLIENT_ID }}
+          CREATORS_CLIENT_SECRET: ${{ secrets.CREATORS_CLIENT_SECRET }}
+
+      - name: Commit and push if products.json changed
+        id: commit
+        # Pushes made with the default GITHUB_TOKEN do NOT trigger other
+        # workflows' `push` events (GitHub's recursion guard), so this push
+        # alone would never run deploy-pages.yml. The next step dispatches
+        # the deploy explicitly (workflow_dispatch is exempt from the guard).
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- site/data/products.json; then
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+          else
+            git add site/data/products.json
+            git commit -m "chore: update prices"
+            git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger Pages deploy
+        if: steps.commit.outputs.pushed == 'true'
+        run: gh workflow run deploy-pages.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
