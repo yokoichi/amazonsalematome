@@ -152,6 +152,35 @@ body {
   color: var(--color-accent);
 }
 
+.grid-cols-control {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.grid-cols-btn {
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+
+.grid-cols-btn:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.grid-cols-btn.is-active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-accent-contrast);
+  font-weight: 700;
+}
+
 .sale-only-toggle {
   display: inline-flex;
   align-items: center;
@@ -193,14 +222,14 @@ body {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(var(--grid-cols, 4), minmax(0, 1fr));
   gap: 20px;
   padding: 28px 0;
 }
 
 @media (max-width: 900px) {
   .product-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(min(var(--grid-cols, 4), 3), minmax(0, 1fr));
   }
 }
 
@@ -250,16 +279,6 @@ body {
   color: var(--color-text-muted);
 }
 
-.card-badges {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  align-items: flex-start;
-}
-
 .badge {
   font-size: 0.7rem;
   padding: 3px 8px;
@@ -267,18 +286,6 @@ body {
   background: var(--color-badge-bg);
   color: var(--color-badge-text);
   white-space: nowrap;
-}
-
-.badge-discount {
-  background: var(--color-discount-bg);
-  color: var(--color-discount);
-  font-weight: 700;
-}
-
-.badge-deal {
-  background: var(--color-discount);
-  color: #fff;
-  font-weight: 700;
 }
 
 .card-body {
@@ -334,6 +341,12 @@ body {
   gap: 2px;
 }
 
+.price-discount-rate {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-discount);
+}
+
 .price-current {
   font-size: 1.15rem;
   font-weight: 700;
@@ -355,14 +368,15 @@ body {
   color: var(--color-text-muted);
 }
 
+.price-deal-line {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-discount);
+}
+
 .price-points {
   font-size: 0.75rem;
   color: var(--color-text-muted);
-}
-
-.card-deal-end {
-  font-size: 0.72rem;
-  color: var(--color-discount);
 }
 
 .card-fetched-at {

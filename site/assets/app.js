@@ -18,6 +18,7 @@ const state = {
   saleOnly: false,
   sortKey: 'default',
   page: 1,
+  gridCols: 4,
 };
 
 const els = {
@@ -33,6 +34,7 @@ const els = {
   productGrid: document.getElementById('product-grid'),
   emptyMessage: document.getElementById('empty-message'),
   pagination: document.getElementById('pagination'),
+  gridColsButtons: document.querySelectorAll('.grid-cols-btn'),
 };
 
 const THEME_LABELS = {
@@ -77,6 +79,13 @@ function renderFacetChips() {
   });
 }
 
+function applyGridCols(cols) {
+  els.productGrid.style.setProperty('--grid-cols', String(cols));
+  els.gridColsButtons.forEach((button) => {
+    button.classList.toggle('is-active', Number(button.dataset.cols) === cols);
+  });
+}
+
 function renderStats(meta) {
   els.statTotal.textContent = String(meta.total);
   els.statDiscount.textContent = String(meta.discount_count);
@@ -99,24 +108,6 @@ function createMediaEl(product) {
     placeholder.textContent = '🖼';
     media.appendChild(placeholder);
   }
-
-  const badges = document.createElement('div');
-  badges.className = 'card-badges';
-
-  const priceInfo = formatPrice(product);
-  if (priceInfo.hasDiscount) {
-    const badge = document.createElement('span');
-    badge.className = 'badge badge-discount';
-    badge.textContent = priceInfo.discountBadgeText;
-    badges.appendChild(badge);
-  }
-  if (product.deal && product.deal.badge) {
-    const badge = document.createElement('span');
-    badge.className = 'badge badge-deal';
-    badge.textContent = product.deal.badge;
-    badges.appendChild(badge);
-  }
-  if (badges.childNodes.length > 0) media.appendChild(badges);
 
   if (isSafeHttpUrl(product.url)) {
     const link = document.createElement('a');
@@ -177,16 +168,32 @@ function createPriceBlock(product) {
   }
 
   if (priceInfo.hasDiscount) {
-    const ref = document.createElement('span');
-    ref.className = 'price-ref';
-    ref.textContent = priceInfo.refHighText;
-    block.appendChild(ref);
+    const rate = document.createElement('span');
+    rate.className = 'price-discount-rate';
+    rate.textContent = priceInfo.discountBadgeText;
+    block.appendChild(rate);
   }
 
   const current = document.createElement('span');
   current.className = priceInfo.hasDiscount ? 'price-current is-discounted' : 'price-current';
   current.textContent = priceInfo.priceText;
   block.appendChild(current);
+
+  if (priceInfo.hasDiscount) {
+    const ref = document.createElement('span');
+    ref.className = 'price-ref';
+    ref.textContent = priceInfo.refHighText;
+    block.appendChild(ref);
+  }
+
+  if (product.deal && product.deal.badge) {
+    const dealLine = document.createElement('span');
+    dealLine.className = 'price-deal-line';
+    dealLine.textContent = product.deal.end_time
+      ? `${product.deal.badge} ${formatDealEndTime(product.deal.end_time)}`
+      : product.deal.badge;
+    block.appendChild(dealLine);
+  }
 
   if (priceInfo.pointsText) {
     const points = document.createElement('span');
@@ -215,13 +222,6 @@ function createCard(product) {
   body.appendChild(createTitleEl(product));
   body.appendChild(createThemeBadges(product));
   body.appendChild(createPriceBlock(product));
-
-  if (product.deal && product.deal.end_time) {
-    const dealEnd = document.createElement('span');
-    dealEnd.className = 'card-deal-end';
-    dealEnd.textContent = formatDealEndTime(product.deal.end_time);
-    body.appendChild(dealEnd);
-  }
 
   const fetchedAt = document.createElement('span');
   fetchedAt.className = 'card-fetched-at';
@@ -334,10 +334,26 @@ function bindEvents() {
   els.resetButton.addEventListener('click', () => {
     resetFilters();
   });
+
+  els.gridColsButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const cols = Number(button.dataset.cols);
+      state.gridCols = cols;
+      applyGridCols(cols);
+      localStorage.setItem('gridCols', String(cols));
+    });
+  });
 }
 
 async function init() {
   bindEvents();
+
+  const storedCols = Number(localStorage.getItem('gridCols'));
+  if (Number.isInteger(storedCols) && storedCols >= 3 && storedCols <= 6) {
+    state.gridCols = storedCols;
+  }
+  applyGridCols(state.gridCols);
+
   const response = await fetch('data/products.json');
   const data = await response.json();
   state.products = data.products ?? [];
