@@ -13,9 +13,11 @@
 - [x] 6. 公開（repo作成・Secrets・Pages・本番確認・README）— Fable
 - [x] 7. UI修正: バッジ位置変更・フォントサイズ調整・グリッド列数コントロール — Sonnet 5委任
 - [x] 8. UI修正: 割引率を赤背景・白抜き文字のバッジ化（Amazon公式風） — Sonnet 5委任
+- [x] 9. バグ修正: 複数カテゴリ選択時にカテゴリ順でグループ化されない — Sonnet 5委任
 
 ## レビュー記録
 
+- タスク9（Sonnet 5）: **合格**。複数カテゴリチップ選択時、「おすすめ順」ソートがカテゴリを考慮せず混在表示していた不具合。ユーザー確認の結果「選択カテゴリごとにグループ化（クリック順）」を採用。`app-logic.mjs`に`groupByCategoryOrder`を追加し、`sortProducts`の第3引数（`categoryOrder`、デフォルト空配列）で`'default'`ソート時のみ適用（`discount_desc`/`price_asc`/`price_desc`は無視、既存回帰テストは第3引数省略で従来どおり）。テスト77→83（+6）green。自己レビューで独立に`import()`した関数を直接呼び出し、カメラ76/ストレージ21/充電39が完全分離（混在ゼロ）することを確認。UI実クリックでも全ページ巡回して同結果を確認（検証中`preview_click`のタイミング起因の誤検知が1件あったが、`.click()`直接呼び出しで問題なしと切り分け済み）。逸脱なし。
 - タスク8（Sonnet 5）: **合格**。ユーザー提示のAmazon公式アプリスクリーンショットを参考に、割引率テキストを`.price-discount-rate`（プレーンな色付きテキスト）から赤背景・白文字・角丸のバッジに変更（`align-self: flex-start`で親のflexストレッチを打ち消し、テキスト内容分の幅に）。`site/assets/style.css`の1クラスのみの変更で、テスト77/77・スコープ一致を自己確認。ブラウザ実機確認（ライト/ダーク、バッジ幅76px実測でカード幅より明らかに小さいこと、コンソールエラー無し）まで実施。逸脱なし。
 - タスク7（Sonnet 5）: **合格**。公開後のユーザー実機確認を受けた修正。(a) 割引率・セールバッジを画像オーバーレイから価格ブロック内（割引率→現在価格→参考価格→セール行→ポイントの順）に移動、Amazon公式UIの価格優先レイアウトに合わせた。(b) 割引率・セール行のフォントサイズを0.7rem系の極小表示から1rem/0.95rem（現在価格1.15remよりわずかに小さい程度）に引き上げ視認性改善。(c) グリッド列数を3〜6列で切替可能にし、localStorageで永続化するコントロールを追加。テスト77/77自己再実行、git status差分がスコープ3ファイルと一致、全hunkレビュー、ブラウザ実機確認（ライト/ダーク/モバイル2列固定/列数切替/リロード後の永続化/コンソールエラー無し）まで実施。死んだCSS（`.card-badges`等）も削除確認。逸脱・発見した別問題なし。
 - タスク6（Fable）: **完了**。`gh repo create yokoichi/amazonsalematome --public` → push → Secrets登録（CREATORS_CLIENT_ID/SECRET）→ Pages有効化（build_type: workflow）→ update-prices.yml手動実行（332商品取得、232件セール中）→ deploy-pages.ymlが自動dispatchで連鎖実行され成功（タスク5で追加した明示dispatchの実効性を本番で確認）→ 公開URL https://yokoichi.github.io/amazonsalematome/ で200・実データ配信を確認。README追加。push前にgit全履歴から認証情報の混入がないことを確認済み。
