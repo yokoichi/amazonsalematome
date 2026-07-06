@@ -8,7 +8,7 @@ import {
   filterProducts,
   sortProducts,
   groupByCategoryOrder,
-  paginate,
+  getInfiniteScrollWindow,
   formatPrice,
   formatFetchedAt,
   formatDealEndTime,
@@ -386,51 +386,56 @@ describe('sortProducts: price_desc', () => {
   });
 });
 
-describe('paginate', () => {
-  test('exactly 20 items -> 1 page', () => {
-    const items = Array.from({ length: 20 }, (_, i) => i);
-    const result = paginate(items, 1, 20);
-    assert.equal(result.totalPages, 1);
-    assert.equal(result.items.length, 20);
-    assert.equal(result.currentPage, 1);
-    assert.equal(result.totalItems, 20);
+describe('getInfiniteScrollWindow', () => {
+  test('visibleCount below totalItems, not a multiple of batchSize -> hasMore true, no manual gate', () => {
+    const items = Array.from({ length: 12 }, (_, i) => i);
+    const result = getInfiniteScrollWindow(items, 7, 5);
+    assert.equal(result.hasMore, true);
+    assert.equal(result.requiresManualLoad, false);
+    assert.equal(result.items.length, 7);
+    assert.equal(result.visibleCount, 7);
+    assert.equal(result.totalItems, 12);
   });
 
-  test('21 items -> 2 pages, page 2 has 1 item', () => {
-    const items = Array.from({ length: 21 }, (_, i) => i);
-    const result = paginate(items, 2, 20);
-    assert.equal(result.totalPages, 2);
-    assert.equal(result.items.length, 1);
-    assert.deepEqual(result.items, [20]);
-  });
-
-  test('0 items -> 1 page (empty), currentPage clamped to 1', () => {
-    const result = paginate([], 1, 20);
-    assert.equal(result.totalPages, 1);
-    assert.equal(result.items.length, 0);
-    assert.equal(result.currentPage, 1);
-    assert.equal(result.totalItems, 0);
-  });
-
-  test('final page with fewer than perPage items', () => {
-    const items = Array.from({ length: 45 }, (_, i) => i);
-    const result = paginate(items, 3, 20);
-    assert.equal(result.totalPages, 3);
+  test('visibleCount exactly a multiple of batchSize with remaining items -> requires manual load', () => {
+    const items = Array.from({ length: 12 }, (_, i) => i);
+    const result = getInfiniteScrollWindow(items, 5, 5);
+    assert.equal(result.hasMore, true);
+    assert.equal(result.requiresManualLoad, true);
     assert.equal(result.items.length, 5);
-    assert.deepEqual(result.items, [40, 41, 42, 43, 44]);
   });
 
-  test('page requested beyond totalPages clamps to last page', () => {
-    const items = Array.from({ length: 25 }, (_, i) => i);
-    const result = paginate(items, 99, 20);
-    assert.equal(result.currentPage, 2);
-    assert.deepEqual(result.items, [20, 21, 22, 23, 24]);
+  test('visibleCount a multiple of batchSize but exactly all items -> no gate needed', () => {
+    const items = Array.from({ length: 10 }, (_, i) => i);
+    const result = getInfiniteScrollWindow(items, 10, 5);
+    assert.equal(result.hasMore, false);
+    assert.equal(result.requiresManualLoad, false);
+    assert.equal(result.items.length, 10);
   });
 
-  test('page requested below 1 clamps to 1', () => {
-    const items = Array.from({ length: 25 }, (_, i) => i);
-    const result = paginate(items, 0, 20);
-    assert.equal(result.currentPage, 1);
+  test('visibleCount beyond totalItems is clamped, hasMore false', () => {
+    const items = Array.from({ length: 8 }, (_, i) => i);
+    const result = getInfiniteScrollWindow(items, 999, 5);
+    assert.equal(result.visibleCount, 8);
+    assert.equal(result.items.length, 8);
+    assert.deepEqual(result.items, items);
+    assert.equal(result.hasMore, false);
+  });
+
+  test('visibleCount 0 -> empty items, no manual gate even though 0 is a multiple of batchSize', () => {
+    const items = Array.from({ length: 8 }, (_, i) => i);
+    const result = getInfiniteScrollWindow(items, 0, 5);
+    assert.deepEqual(result.items, []);
+    assert.equal(result.requiresManualLoad, false);
+    assert.equal(result.hasMore, true);
+  });
+
+  test('totalItems 0 (empty list) -> empty items, hasMore false, no gate', () => {
+    const result = getInfiniteScrollWindow([], 0, 5);
+    assert.deepEqual(result.items, []);
+    assert.equal(result.hasMore, false);
+    assert.equal(result.requiresManualLoad, false);
+    assert.equal(result.totalItems, 0);
   });
 });
 

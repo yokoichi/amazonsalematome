@@ -165,22 +165,32 @@ export function sortProducts(products, sortKey, categoryOrder = []) {
 }
 
 /**
- * @param {any[]} items
- * @param {number} page 1-indexed requested page (will be clamped)
- * @param {number} perPage
- * @returns {{items: any[], currentPage: number, totalPages: number, totalItems: number}}
+ * Computes the current infinite-scroll "window" into a sorted/filtered
+ * product list: how many items to render, and whether auto-scroll
+ * loading should pause for a manual "load more" click.
+ *
+ * Auto-scroll loading continues as visibleCount grows, except at exact
+ * multiples of batchSize (500, 1000, 1500, ...) where — if more items
+ * remain beyond that point — a manual click is required before loading
+ * continues.
+ *
+ * @param {any[]} items already filtered+sorted items
+ * @param {number} visibleCount how many items are currently meant to be visible
+ * @param {number} batchSize the manual-load gate interval (e.g. 500)
+ * @returns {{items: any[], visibleCount: number, totalItems: number, hasMore: boolean, requiresManualLoad: boolean}}
  */
-export function paginate(items, page, perPage) {
+export function getInfiniteScrollWindow(items, visibleCount, batchSize) {
   const totalItems = items.length;
-  const totalPages = Math.max(1, Math.ceil(totalItems / perPage));
-  const clampedPage = Math.min(Math.max(1, page), totalPages);
-  const start = (clampedPage - 1) * perPage;
-  const pageItems = items.slice(start, start + perPage);
+  const effectiveVisibleCount = Math.min(Math.max(0, visibleCount), totalItems);
+  const hasMore = effectiveVisibleCount < totalItems;
+  const requiresManualLoad =
+    hasMore && effectiveVisibleCount > 0 && effectiveVisibleCount % batchSize === 0;
   return {
-    items: pageItems,
-    currentPage: clampedPage,
-    totalPages,
+    items: items.slice(0, effectiveVisibleCount),
+    visibleCount: effectiveVisibleCount,
     totalItems,
+    hasMore,
+    requiresManualLoad,
   };
 }
 

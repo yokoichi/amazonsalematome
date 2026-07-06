@@ -1,14 +1,15 @@
 import {
   filterProducts,
   sortProducts,
-  paginate,
+  getInfiniteScrollWindow,
   formatPrice,
   formatFetchedAt,
   formatDealEndTime,
   extractFacets,
 } from './app-logic.mjs';
 
-const PER_PAGE = 20;
+const CHUNK_SIZE = 20;
+const BATCH_SIZE = 500;
 
 const state = {
   products: [],
@@ -17,7 +18,7 @@ const state = {
   themes: new Set(),
   saleOnly: false,
   sortKey: 'default',
-  page: 1,
+  visibleCount: CHUNK_SIZE,
   gridCols: 4,
 };
 
@@ -33,9 +34,13 @@ const els = {
   themeChips: document.getElementById('theme-chips'),
   productGrid: document.getElementById('product-grid'),
   emptyMessage: document.getElementById('empty-message'),
-  pagination: document.getElementById('pagination'),
+  loadMoreButton: document.getElementById('load-more-button'),
+  scrollSentinel: document.getElementById('scroll-sentinel'),
   gridColsButtons: document.querySelectorAll('.grid-cols-btn'),
 };
+
+let lastWindow = null;
+let sentinelObserver = null;
 
 const THEME_LABELS = {
   article: '📝 記事で紹介',
@@ -69,7 +74,7 @@ function renderFacetChips() {
   buildChips(els.categoryChips, categories, state.categories, (value) => {
     if (state.categories.has(value)) state.categories.delete(value);
     else state.categories.add(value);
-    state.page = 1;
+    state.visibleCount = CHUNK_SIZE;
     renderFacetChips();
     render();
   });
@@ -81,7 +86,7 @@ function renderFacetChips() {
   allButton.textContent = 'すべて';
   allButton.addEventListener('click', () => {
     state.categories = new Set();
-    state.page = 1;
+    state.visibleCount = CHUNK_SIZE;
     renderFacetChips();
     render();
   });
@@ -90,7 +95,7 @@ function renderFacetChips() {
   buildChips(els.themeChips, themes, state.themes, (value) => {
     if (state.themes.has(value)) state.themes.delete(value);
     else state.themes.add(value);
-    state.page = 1;
+    state.visibleCount = CHUNK_SIZE;
     renderFacetChips();
     render();
   });
@@ -256,45 +261,8 @@ function renderGrid(pageItems) {
   }
 }
 
-function renderPagination(pageResult) {
-  clearChildren(els.pagination);
-  const { currentPage, totalPages } = pageResult;
-  if (totalPages <= 1) return;
-
-  const prev = document.createElement('button');
-  prev.type = 'button';
-  prev.className = 'page-button';
-  prev.textContent = '前へ';
-  prev.disabled = currentPage <= 1;
-  prev.addEventListener('click', () => {
-    state.page = currentPage - 1;
-    render();
-  });
-  els.pagination.appendChild(prev);
-
-  for (let i = 1; i <= totalPages; i += 1) {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'page-button';
-    if (i === currentPage) button.classList.add('is-current');
-    button.textContent = String(i);
-    button.addEventListener('click', () => {
-      state.page = i;
-      render();
-    });
-    els.pagination.appendChild(button);
-  }
-
-  const next = document.createElement('button');
-  next.type = 'button';
-  next.className = 'page-button';
-  next.textContent = '次へ';
-  next.disabled = currentPage >= totalPages;
-  next.addEventListener('click', () => {
-    state.page = currentPage + 1;
-    render();
-  });
-  els.pagination.appendChild(next);
+function renderLoadMore(scrollWindow) {
+  els.loadMoreButton.hidden = !scrollWindow.requiresManualLoad;
 }
 
 function render() {
@@ -305,12 +273,32 @@ function render() {
     saleOnly: state.saleOnly,
   });
   const sorted = sortProducts(filtered, state.sortKey, [...state.categories]);
-  const pageResult = paginate(sorted, state.page, PER_PAGE);
-  state.page = pageResult.currentPage;
+  const scrollWindow = getInfiniteScrollWindow(sorted, state.visibleCount, BATCH_SIZE);
+  state.visibleCount = scrollWindow.visibleCount;
 
-  els.emptyMessage.hidden = pageResult.totalItems !== 0;
-  renderGrid(pageResult.items);
-  renderPagination(pageResult);
+  els.emptyMessage.hidden = scrollWindow.totalItems !== 0;
+  renderGrid(scrollWindow.items);
+  renderLoadMore(scrollWindow);
+  lastWindow = scrollWindow;
+
+  // Re-observing forces the browser to re-evaluate the sentinel's
+  // intersection state. Without this, IntersectionObserver only fires
+  // on a *change* of intersection state — if the sentinel stays
+  // within the viewport across a render (common when the user has
+  // scrolled to the bottom and new items simply extend the page), the
+  // callback never re-fires and auto-loading silently stalls.
+  if (sentinelObserver) {
+    sentinelObserver.unobserve(els.scrollSentinel);
+    sentinelObserver.observe(els.scrollSentinel);
+  }
+}
+
+function handleSentinelIntersect() {
+  if (!lastWindow) return;
+  if (lastWindow.hasMore && !lastWindow.requiresManualLoad) {
+    state.visibleCount = Math.min(state.visibleCount + CHUNK_SIZE, lastWindow.totalItems);
+    render();
+  }
 }
 
 function resetFilters() {
@@ -319,7 +307,7 @@ function resetFilters() {
   state.themes = new Set();
   state.saleOnly = false;
   state.sortKey = 'default';
-  state.page = 1;
+  state.visibleCount = CHUNK_SIZE;
 
   els.keywordInput.value = '';
   els.sortSelect.value = 'default';
@@ -332,19 +320,19 @@ function resetFilters() {
 function bindEvents() {
   els.keywordInput.addEventListener('input', (e) => {
     state.keyword = e.target.value;
-    state.page = 1;
+    state.visibleCount = CHUNK_SIZE;
     render();
   });
 
   els.sortSelect.addEventListener('change', (e) => {
     state.sortKey = e.target.value;
-    state.page = 1;
+    state.visibleCount = CHUNK_SIZE;
     render();
   });
 
   els.saleOnlyCheckbox.addEventListener('change', (e) => {
     state.saleOnly = e.target.checked;
-    state.page = 1;
+    state.visibleCount = CHUNK_SIZE;
     render();
   });
 
@@ -360,6 +348,12 @@ function bindEvents() {
       localStorage.setItem('gridCols', String(cols));
     });
   });
+
+  els.loadMoreButton.addEventListener('click', () => {
+    if (!lastWindow) return;
+    state.visibleCount = Math.min(state.visibleCount + CHUNK_SIZE, lastWindow.totalItems);
+    render();
+  });
 }
 
 async function init() {
@@ -370,6 +364,13 @@ async function init() {
     state.gridCols = storedCols;
   }
   applyGridCols(state.gridCols);
+
+  sentinelObserver = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) handleSentinelIntersect();
+    }
+  });
+  sentinelObserver.observe(els.scrollSentinel);
 
   const response = await fetch('data/products.json');
   const data = await response.json();
