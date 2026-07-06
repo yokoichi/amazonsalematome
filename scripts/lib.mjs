@@ -217,3 +217,86 @@ export function chunk(arr, size) {
   }
   return out;
 }
+
+// ---------------------------------------------------------------------------
+// Below: pure logic shared by scripts/build-catalog.mjs (initial catalog
+// building tool). Not used by update.mjs.
+// ---------------------------------------------------------------------------
+
+/**
+ * Serialize rows (arrays of strings) to RFC 4180 CSV text.
+ * A field is quoted when it contains a comma, double quote, or newline;
+ * embedded double quotes are doubled. Rows are joined with "\n" (each row,
+ * including the last, ends with a trailing newline).
+ * @param {string[][]} rows
+ * @returns {string}
+ */
+export function csvStringify(rows) {
+  const escapeField = (value) => {
+    const s = String(value);
+    if (/[",\n\r]/.test(s)) {
+      return `"${s.replace(/"/g, '""')}"`;
+    }
+    return s;
+  };
+  return rows.map((row) => row.map(escapeField).join(",")).join("\n") + "\n";
+}
+
+/**
+ * Map a searchItems response (AGENTS.md §2 shape:
+ * { searchResult: { items, totalResultCount, searchURL } }) to candidate
+ * rows for data/candidates.csv, taking the top `query.maxItems` items.
+ *
+ * Price follows the same optional-chaining convention as itemToProduct:
+ * when offersV2/price/money is missing, price is "" (candidates.csv has no
+ * null convention — it's a plain CSV for human review).
+ *
+ * @param {object} response raw searchItems response
+ * @param {{keywords?: string, brand?: string, category: string, themes: string[], maxItems: number}} query
+ * @returns {{asin:string,category:string,themes:string[],title:string,price:number|string,url:string|null,source_keywords:string}[]}
+ */
+export function searchItemsToCandidates(response, query) {
+  const items = response?.searchResult?.items ?? [];
+  const sourceKeywords = query.keywords ?? query.brand ?? "";
+  return items.slice(0, query.maxItems).map((item) => {
+    const listing = item?.offersV2?.listings?.[0] ?? null;
+    const price = listing?.price?.money?.amount ?? "";
+    return {
+      asin: item.asin,
+      category: query.category,
+      themes: query.themes,
+      title: item?.itemInfo?.title?.displayValue ?? "",
+      price,
+      url: item?.detailPageURL ?? null,
+      source_keywords: sourceKeywords,
+    };
+  });
+}
+
+/**
+ * Deduplicate candidate rows by ASIN, preserving first-seen order.
+ * On duplicate ASIN: themes become the union (no duplicate theme names,
+ * order not significant); category and source_keywords keep the value from
+ * the first occurrence (first query wins); other fields are taken from the
+ * first occurrence as well.
+ * @param {{asin:string,category:string,themes:string[],title:string,price:number|string,url:string|null,source_keywords:string}[]} candidates
+ * @returns {{asin:string,category:string,themes:string[],title:string,price:number|string,url:string|null,source_keywords:string}[]}
+ */
+export function mergeCandidates(candidates) {
+  const byAsin = new Map();
+  const order = [];
+  for (const candidate of candidates) {
+    const existing = byAsin.get(candidate.asin);
+    if (!existing) {
+      byAsin.set(candidate.asin, { ...candidate, themes: [...candidate.themes] });
+      order.push(candidate.asin);
+      continue;
+    }
+    for (const theme of candidate.themes) {
+      if (!existing.themes.includes(theme)) {
+        existing.themes.push(theme);
+      }
+    }
+  }
+  return order.map((asin) => byAsin.get(asin));
+}
