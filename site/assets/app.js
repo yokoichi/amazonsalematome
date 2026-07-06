@@ -65,16 +65,33 @@ function buildChips(container, values, selectedSet, onToggle) {
 
 function renderFacetChips() {
   const { categories, themes } = extractFacets(state.products);
+
   buildChips(els.categoryChips, categories, state.categories, (value) => {
     if (state.categories.has(value)) state.categories.delete(value);
     else state.categories.add(value);
     state.page = 1;
+    renderFacetChips();
     render();
   });
+
+  const allButton = document.createElement('button');
+  allButton.type = 'button';
+  allButton.className = 'chip';
+  if (state.categories.size === 0) allButton.classList.add('is-active');
+  allButton.textContent = 'すべて';
+  allButton.addEventListener('click', () => {
+    state.categories = new Set();
+    state.page = 1;
+    renderFacetChips();
+    render();
+  });
+  els.categoryChips.insertBefore(allButton, els.categoryChips.firstChild);
+
   buildChips(els.themeChips, themes, state.themes, (value) => {
     if (state.themes.has(value)) state.themes.delete(value);
     else state.themes.add(value);
     state.page = 1;
+    renderFacetChips();
     render();
   });
 }
