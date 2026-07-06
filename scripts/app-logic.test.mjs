@@ -7,6 +7,7 @@ import {
   isOnSale,
   filterProducts,
   sortProducts,
+  groupByCategoryOrder,
   paginate,
   formatPrice,
   formatFetchedAt,
@@ -235,6 +236,114 @@ describe('sortProducts: default (recommended order)', () => {
     const b = makeProduct({ asin: 'B', title: 'いいい', discount: null, themes: [] });
     const sorted = sortProducts([b, a], 'default');
     assert.deepEqual(sorted.map((p) => p.asin), ['A', 'B']);
+  });
+});
+
+describe('groupByCategoryOrder', () => {
+  test('groups by categoryOrder, unlisted categories trail, stable within group', () => {
+    const a1 = makeProduct({ asin: 'A1', category: 'A' });
+    const b1 = makeProduct({ asin: 'B1', category: 'B' });
+    const a2 = makeProduct({ asin: 'A2', category: 'A' });
+    const c1 = makeProduct({ asin: 'C1', category: 'C' });
+    const b2 = makeProduct({ asin: 'B2', category: 'B' });
+    const result = groupByCategoryOrder([a1, b1, a2, c1, b2], ['B', 'A']);
+    assert.deepEqual(result.map((p) => p.asin), ['B1', 'B2', 'A1', 'A2', 'C1']);
+  });
+
+  test('empty categoryOrder returns input order unchanged', () => {
+    const a1 = makeProduct({ asin: 'A1', category: 'A' });
+    const b1 = makeProduct({ asin: 'B1', category: 'B' });
+    const result = groupByCategoryOrder([a1, b1], []);
+    assert.deepEqual(result.map((p) => p.asin), ['A1', 'B1']);
+  });
+
+  test('undefined categoryOrder returns input order unchanged', () => {
+    const a1 = makeProduct({ asin: 'A1', category: 'A' });
+    const b1 = makeProduct({ asin: 'B1', category: 'B' });
+    const result = groupByCategoryOrder([a1, b1], undefined);
+    assert.deepEqual(result.map((p) => p.asin), ['A1', 'B1']);
+  });
+});
+
+describe('sortProducts: default with categoryOrder (multi-category grouping)', () => {
+  test('all category-A products precede all category-B products when categoryOrder=[A,B]', () => {
+    const cameraHigh = makeProduct({
+      asin: 'CAM_HIGH',
+      title: 'カメラ高割引',
+      category: 'カメラ・撮影機材',
+      discount: { ref_high: 10000, rate_percent: 70.0 },
+    });
+    const cameraLow = makeProduct({
+      asin: 'CAM_LOW',
+      title: 'カメラ低割引',
+      category: 'カメラ・撮影機材',
+      discount: { ref_high: 10000, rate_percent: 20.0 },
+    });
+    const cameraArticle = makeProduct({
+      asin: 'CAM_ARTICLE',
+      title: 'カメラ記事',
+      category: 'カメラ・撮影機材',
+      themes: ['article'],
+      discount: null,
+    });
+    const chargeHigh = makeProduct({
+      asin: 'CHG_HIGH',
+      title: '充電高割引',
+      category: '充電・モバイル',
+      discount: { ref_high: 5000, rate_percent: 90.0 },
+    });
+    const chargePlain = makeProduct({
+      asin: 'CHG_PLAIN',
+      title: '充電通常',
+      category: '充電・モバイル',
+      discount: null,
+    });
+
+    const all = [chargePlain, cameraLow, chargeHigh, cameraArticle, cameraHigh];
+    const sorted = sortProducts(all, 'default', ['カメラ・撮影機材', '充電・モバイル']);
+
+    // All camera products come before all charge products.
+    const asins = sorted.map((p) => p.asin);
+    const lastCameraIdx = Math.max(
+      asins.indexOf('CAM_HIGH'),
+      asins.indexOf('CAM_LOW'),
+      asins.indexOf('CAM_ARTICLE')
+    );
+    const firstChargeIdx = Math.min(asins.indexOf('CHG_HIGH'), asins.indexOf('CHG_PLAIN'));
+    assert.ok(lastCameraIdx < firstChargeIdx, `expected all camera items before charge items, got ${asins}`);
+
+    // Within camera group: discount desc (70% then 20%), then article-no-discount last.
+    assert.deepEqual(asins.slice(0, 3), ['CAM_HIGH', 'CAM_LOW', 'CAM_ARTICLE']);
+    // Within charge group: discounted before plain.
+    assert.deepEqual(asins.slice(3), ['CHG_HIGH', 'CHG_PLAIN']);
+  });
+
+  test('categoryOrder is ignored for non-default sortKey (discount_desc stays ungrouped)', () => {
+    const cameraLow = makeProduct({
+      asin: 'CAM_LOW',
+      category: 'カメラ・撮影機材',
+      discount: { ref_high: 1000, rate_percent: 10.0 },
+    });
+    const chargeHigh = makeProduct({
+      asin: 'CHG_HIGH',
+      category: '充電・モバイル',
+      discount: { ref_high: 1000, rate_percent: 90.0 },
+    });
+    const sorted = sortProducts([cameraLow, chargeHigh], 'discount_desc', ['カメラ・撮影機材', '充電・モバイル']);
+    // Pure discount desc: CHG_HIGH (90%) before CAM_LOW (10%), i.e. NOT grouped by category order.
+    assert.deepEqual(sorted.map((p) => p.asin), ['CHG_HIGH', 'CAM_LOW']);
+  });
+
+  test('sortProducts(products, "default") with omitted categoryOrder matches existing regression order', () => {
+    const all = [plainProduct, favoriteBrandNoDiscount, articleNoDiscount, discountedNoTheme, discountedArticle];
+    const sorted = sortProducts(all, 'default');
+    assert.deepEqual(sorted.map((p) => p.asin), [
+      'B0000000A1',
+      'B0000000A2',
+      'B0000000A3',
+      'B0000000A4',
+      'B0000000A5',
+    ]);
   });
 });
 

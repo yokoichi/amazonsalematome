@@ -304,7 +304,7 @@ function render() {
     themes: state.themes,
     saleOnly: state.saleOnly,
   });
-  const sorted = sortProducts(filtered, state.sortKey);
+  const sorted = sortProducts(filtered, state.sortKey, [...state.categories]);
   const pageResult = paginate(sorted, state.page, PER_PAGE);
   state.page = pageResult.currentPage;
 

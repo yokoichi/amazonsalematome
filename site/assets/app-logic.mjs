@@ -123,11 +123,34 @@ function sortByPrice(products, direction) {
 }
 
 /**
+ * Groups already-sorted products by category, ordering the groups
+ * according to categoryOrder (typically the order categories were
+ * clicked/selected by the user). Within each group, the relative
+ * order of products is preserved (stable). Products whose category
+ * is not found in categoryOrder are appended at the end, in their
+ * original relative order.
  * @param {object[]} products
- * @param {'default'|'discount_desc'|'price_asc'|'price_desc'} sortKey
+ * @param {string[]} [categoryOrder]
  * @returns {object[]}
  */
-export function sortProducts(products, sortKey) {
+export function groupByCategoryOrder(products, categoryOrder) {
+  if (!categoryOrder || categoryOrder.length === 0) return [...products];
+  const groups = new Map(categoryOrder.map((c) => [c, []]));
+  const rest = [];
+  for (const p of products) {
+    if (groups.has(p.category)) groups.get(p.category).push(p);
+    else rest.push(p);
+  }
+  return [...categoryOrder.flatMap((c) => groups.get(c)), ...rest];
+}
+
+/**
+ * @param {object[]} products
+ * @param {'default'|'discount_desc'|'price_asc'|'price_desc'} sortKey
+ * @param {string[]} [categoryOrder] Only applied when sortKey resolves to 'default'.
+ * @returns {object[]}
+ */
+export function sortProducts(products, sortKey, categoryOrder = []) {
   switch (sortKey) {
     case 'discount_desc':
       return sortDiscountDesc(products);
@@ -137,7 +160,7 @@ export function sortProducts(products, sortKey) {
       return sortByPrice(products, 'desc');
     case 'default':
     default:
-      return sortDefault(products);
+      return groupByCategoryOrder(sortDefault(products), categoryOrder);
   }
 }
 
