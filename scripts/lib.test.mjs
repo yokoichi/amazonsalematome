@@ -119,7 +119,9 @@ test("itemToProduct: discounted item computes rate_percent from prices", () => {
   // (4990 - 3490) / 4990 * 100 = 30.06... -> 30.1 (own calc preferred over
   // the API's integer savings.percentage of 30).
   assert.deepEqual(p.discount, { ref_high: 4990, rate_percent: 30.1 });
-  assert.deepEqual(p.deal, { badge: "タイムセール", end_time: "2026-07-10T15:00:00Z" });
+  // dealDetails.endTime "2026-07-10T15:00:00Z" (ISO 8601, UTC) is normalized
+  // to the schema's JST "YYYY/MM/DD HH:mm" convention: 15:00 UTC + 9h -> 00:00 JST next day.
+  assert.deepEqual(p.deal, { badge: "タイムセール", end_time: "2026/07/11 00:00" });
   // title_override wins over API title.
   assert.equal(p.title, "Anker Power Bank (10000mAh 22.5W) ブラック");
 });

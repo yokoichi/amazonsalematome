@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>横田裕市のAmazonセールおすすめポータル</title>
+<meta name="description" content="写真家・横田裕市が実際に使って選んだ愛用品・おすすめ品のセール情報を自動更新でお届け">
+<meta property="og:title" content="横田裕市のAmazonセールおすすめポータル">
+<meta property="og:description" content="写真家・横田裕市が実際に使って選んだ愛用品・おすすめ品のセール情報を自動更新でお届け">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <h1 class="site-title">横田裕市のAmazonセールおすすめポータル</h1>
+    <p class="site-subcopy">写真家・横田裕市が実際に使って選んだ愛用品・おすすめ品のセール情報を自動更新でお届け</p>
+  </div>
+</header>
+
+<div class="container">
+  <section class="stats-bar" aria-label="サイト統計">
+    <div class="stat">
+      <span class="stat-label">登録商品数</span>
+      <span class="stat-value" id="stat-total">-</span>
+    </div>
+    <div class="stat stat-highlight">
+      <span class="stat-label">値下げ商品数</span>
+      <span class="stat-value" id="stat-discount">-</span>
+    </div>
+    <div class="stat">
+      <span class="stat-label">最終更新</span>
+      <span class="stat-value" id="stat-updated">-</span>
+    </div>
+  </section>
+
+  <section class="filters" aria-label="絞り込み">
+    <div class="filters-row">
+      <input type="search" id="keyword-input" class="keyword-input" placeholder="商品名で検索" aria-label="キーワード検索">
+      <select id="sort-select" class="sort-select" aria-label="並び替え">
+        <option value="default">おすすめ順</option>
+        <option value="discount_desc">割引率順</option>
+        <option value="price_asc">価格が安い順</option>
+        <option value="price_desc">価格が高い順</option>
+      </select>
+      <button type="button" id="reset-button" class="reset-button">リセット</button>
+    </div>
+    <div class="filters-row">
+      <label class="sale-only-toggle">
+        <input type="checkbox" id="sale-only-checkbox">
+        <span>セール中のみ</span>
+      </label>
+    </div>
+    <div class="chip-group" id="category-chips" aria-label="カテゴリで絞り込み"></div>
+    <div class="chip-group" id="theme-chips" aria-label="テーマで絞り込み"></div>
+  </section>
+
+  <section aria-label="商品一覧">
+    <p id="empty-message" class="empty-message" hidden>該当する商品が見つかりませんでした。</p>
+    <div class="product-grid" id="product-grid"></div>
+  </section>
+
+  <nav class="pagination" id="pagination" aria-label="ページ送り"></nav>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>価格は約6時間ごとに自動取得しています。表示価格は取得時点のものであり、最新の価格はAmazonの商品ページでご確認ください。</p>
+    <p>Amazonのアソシエイトとして、当サイトは適格販売により収入を得ています。</p>
+  </div>
+</footer>
+
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>

@@ -138,9 +138,14 @@ export function itemToProduct(item, row, fetchedAt) {
   let deal = null;
   const dealDetails = listing?.dealDetails ?? null;
   if (dealDetails && typeof dealDetails.badge === "string") {
+    // dealDetails.endTime arrives as an ISO 8601 timestamp from the API;
+    // normalize to the same JST "YYYY/MM/DD HH:mm" convention used by every
+    // other datetime in this schema (fetched_at, meta.updated_at).
+    const endTimeRaw = dealDetails.endTime ?? null;
+    const endTimeDate = endTimeRaw ? new Date(endTimeRaw) : null;
     deal = {
       badge: dealDetails.badge,
-      end_time: dealDetails.endTime ?? null,
+      end_time: endTimeDate && !Number.isNaN(endTimeDate.getTime()) ? formatJst(endTimeDate) : null,
     };
   }
 
