@@ -11,9 +11,11 @@
 - [x] 4. フロントエンド site/（index.html / style.css / app.js）— Sonnet 5委任
 - [x] 5. .github/workflows/update-prices.yml — Sonnet 5委任
 - [x] 6. 公開（repo作成・Secrets・Pages・本番確認・README）— Fable
+- [x] 7. UI修正: バッジ位置変更・フォントサイズ調整・グリッド列数コントロール — Sonnet 5委任
 
 ## レビュー記録
 
+- タスク7（Sonnet 5）: **合格**。公開後のユーザー実機確認を受けた修正。(a) 割引率・セールバッジを画像オーバーレイから価格ブロック内（割引率→現在価格→参考価格→セール行→ポイントの順）に移動、Amazon公式UIの価格優先レイアウトに合わせた。(b) 割引率・セール行のフォントサイズを0.7rem系の極小表示から1rem/0.95rem（現在価格1.15remよりわずかに小さい程度）に引き上げ視認性改善。(c) グリッド列数を3〜6列で切替可能にし、localStorageで永続化するコントロールを追加。テスト77/77自己再実行、git status差分がスコープ3ファイルと一致、全hunkレビュー、ブラウザ実機確認（ライト/ダーク/モバイル2列固定/列数切替/リロード後の永続化/コンソールエラー無し）まで実施。死んだCSS（`.card-badges`等）も削除確認。逸脱・発見した別問題なし。
 - タスク6（Fable）: **完了**。`gh repo create yokoichi/amazonsalematome --public` → push → Secrets登録（CREATORS_CLIENT_ID/SECRET）→ Pages有効化（build_type: workflow）→ update-prices.yml手動実行（332商品取得、232件セール中）→ deploy-pages.ymlが自動dispatchで連鎖実行され成功（タスク5で追加した明示dispatchの実効性を本番で確認）→ 公開URL https://yokoichi.github.io/amazonsalematome/ で200・実データ配信を確認。README追加。push前にgit全履歴から認証情報の混入がないことを確認済み。
 - タスク5（Sonnet 5）: **合格**。YAML構文OK。レビューで2点補強: (a) permissions に `actions: write` 追加、(b) GITHUB_TOKENでのpushは他workflowのpushイベントを再トリガーしない仕様のため、update-prices.yml末尾に `gh workflow run deploy-pages.yml` の明示dispatchステップを追加（元実装はpushで自動連鎖すると誤認していた）。
 - タスク4（Sonnet 5）: **合格**。テスト77/77（既存28＋app-logic新規49）自己再実行、構文チェック・HTTPサーバ200確認、ブラウザ実機能確認（フィルタ・ソート・ページング・ライト/ダーク・モバイル）すべて正常。レビュー中に発見したバグ1件を自分で修正: `deal.end_time`がAPI生ISO8601のままpassthroughされ、フロント側はJST「YYYY/MM/DD HH:mm」形式を前提にパースしていたため不整合（AGENTS.md §3の日時規約違反）。scripts/lib.mjsのitemToProductでformatJst変換するよう修正し、既存テストのアサーションも更新（77/77green維持）。
