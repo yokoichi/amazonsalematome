@@ -12,9 +12,11 @@
 - [x] 5. .github/workflows/update-prices.yml — Sonnet 5委任
 - [x] 6. 公開（repo作成・Secrets・Pages・本番確認・README）— Fable
 - [x] 7. UI修正: バッジ位置変更・フォントサイズ調整・グリッド列数コントロール — Sonnet 5委任
+- [x] 8. UI修正: 割引率を赤背景・白抜き文字のバッジ化（Amazon公式風） — Sonnet 5委任
 
 ## レビュー記録
 
+- タスク8（Sonnet 5）: **合格**。ユーザー提示のAmazon公式アプリスクリーンショットを参考に、割引率テキストを`.price-discount-rate`（プレーンな色付きテキスト）から赤背景・白文字・角丸のバッジに変更（`align-self: flex-start`で親のflexストレッチを打ち消し、テキスト内容分の幅に）。`site/assets/style.css`の1クラスのみの変更で、テスト77/77・スコープ一致を自己確認。ブラウザ実機確認（ライト/ダーク、バッジ幅76px実測でカード幅より明らかに小さいこと、コンソールエラー無し）まで実施。逸脱なし。
 - タスク7（Sonnet 5）: **合格**。公開後のユーザー実機確認を受けた修正。(a) 割引率・セールバッジを画像オーバーレイから価格ブロック内（割引率→現在価格→参考価格→セール行→ポイントの順）に移動、Amazon公式UIの価格優先レイアウトに合わせた。(b) 割引率・セール行のフォントサイズを0.7rem系の極小表示から1rem/0.95rem（現在価格1.15remよりわずかに小さい程度）に引き上げ視認性改善。(c) グリッド列数を3〜6列で切替可能にし、localStorageで永続化するコントロールを追加。テスト77/77自己再実行、git status差分がスコープ3ファイルと一致、全hunkレビュー、ブラウザ実機確認（ライト/ダーク/モバイル2列固定/列数切替/リロード後の永続化/コンソールエラー無し）まで実施。死んだCSS（`.card-badges`等）も削除確認。逸脱・発見した別問題なし。
 - タスク6（Fable）: **完了**。`gh repo create yokoichi/amazonsalematome --public` → push → Secrets登録（CREATORS_CLIENT_ID/SECRET）→ Pages有効化（build_type: workflow）→ update-prices.yml手動実行（332商品取得、232件セール中）→ deploy-pages.ymlが自動dispatchで連鎖実行され成功（タスク5で追加した明示dispatchの実効性を本番で確認）→ 公開URL https://yokoichi.github.io/amazonsalematome/ で200・実データ配信を確認。README追加。push前にgit全履歴から認証情報の混入がないことを確認済み。
 - タスク5（Sonnet 5）: **合格**。YAML構文OK。レビューで2点補強: (a) permissions に `actions: write` 追加、(b) GITHUB_TOKENでのpushは他workflowのpushイベントを再トリガーしない仕様のため、update-prices.yml末尾に `gh workflow run deploy-pages.yml` の明示dispatchステップを追加（元実装はpushで自動連鎖すると誤認していた）。
