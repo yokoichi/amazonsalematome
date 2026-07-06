@@ -342,9 +342,15 @@ body {
 }
 
 .price-discount-rate {
-  font-size: 1rem;
+  align-self: flex-start;
+  font-size: 0.95rem;
   font-weight: 700;
-  color: var(--color-discount);
+  line-height: 1;
+  padding: 4px 10px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  background: var(--color-discount);
+  color: #fff;
 }
 
 .price-current {
