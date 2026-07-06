@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "site_name": "横田裕市のAmazonセールおすすめポータル",
+    "total": 3,
+    "discount_count": 0,
+    "updated_at": "2026/07/06 23:22"
+  },
+  "products": [
+    {
+      "asin": "B0CQX67KTW",
+      "title": "Anker Power Bank (10000mAh 22.5W) ブラック",
+      "url": "https://www.amazon.co.jp/dp/B0CQX67KTW?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "充電・モバイル",
+      "themes": [
+        "favorite-brand"
+      ],
+      "image_url": "https://m.media-amazon.com/images/I/31HITWDgArL._SL160_.jpg",
+      "price": 3490,
+      "discount": null,
+      "deal": null,
+      "points": {
+        "total": 35,
+        "rate_percent": 1
+      },
+      "fetched_at": "2026/07/06 23:22"
+    },
+    {
+      "asin": "B0DNM2P7GK",
+      "title": "Anker Power Bank (10000mAh 22.5W) ブルー",
+      "url": "https://www.amazon.co.jp/dp/B0DNM2P7GK?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "充電・モバイル",
+      "themes": [
+        "favorite-brand"
+      ],
+      "image_url": "https://m.media-amazon.com/images/I/21sQEAzFP9L._SL160_.jpg",
+      "price": 3990,
+      "discount": null,
+      "deal": null,
+      "points": {
+        "total": 40,
+        "rate_percent": 1
+      },
+      "fetched_at": "2026/07/06 23:22"
+    },
+    {
+      "asin": "B0CQX1MBCK",
+      "title": "Anker Power Bank (10000mAh 22.5W) ホワイト",
+      "url": "https://www.amazon.co.jp/dp/B0CQX1MBCK?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "充電・モバイル",
+      "themes": [
+        "favorite-brand"
+      ],
+      "image_url": "https://m.media-amazon.com/images/I/31CTmUDbtaL._SL160_.jpg",
+      "price": 3990,
+      "discount": null,
+      "deal": null,
+      "points": {
+        "total": 40,
+        "rate_percent": 1
+      },
+      "fetched_at": "2026/07/06 23:22"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "itemsResult": {
+    "items": [
+      {
+        "asin": "B0DNM2P7GK",
+        "detailPageURL": "https://www.amazon.co.jp/dp/B0DNM2P7GK?tag=yokoichi-22&linkCode=osi&th=1&psc=1",
+        "images": {
+          "primary": {
+            "medium": { "url": "https://m.media-amazon.com/images/I/sample-blue.jpg", "height": 160, "width": 128 }
+          }
+        },
+        "itemInfo": {
+          "title": { "displayValue": "Anker PowerCore 10000 モバイルバッテリー ブルー", "label": "Title", "locale": "ja_JP" }
+        },
+        "offersV2": {
+          "listings": [
+            {
+              "isBuyBoxWinner": true,
+              "price": {
+                "money": { "amount": 2990, "currency": "JPY", "displayAmount": "￥2,990" }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

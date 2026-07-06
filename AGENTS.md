@@ -71,7 +71,7 @@ searchItems→ { "searchResult": { "items": [ <item> ], "totalResultCount": N, "
 
 <item> = {
   "asin": "B0CQX67KTW",
-  "detailPageURL": "https://www.amazon.co.jp/dp/XXXX?tag=yokoichi-22&linkCode=osi&th=1&psc=1",  // タグ自動付与済み
+  "detailPageURL": "https://www.amazon.co.jp/dp/XXXX?tag=yokoichi-22&linkCode=osi&th=1&psc=1",  // タグ自動付与済み。linkCode は osi/ogi 等変動する（そのまま透過保存）
   "images": { "primary": { "medium": { "url": "...", "height": 160, "width": 128 } } },
   "itemInfo": { "title": { "displayValue": "商品名", "label": "Title", "locale": "ja_JP" } },
   "offersV2": { "listings": [ {
@@ -133,6 +133,7 @@ searchItems→ { "searchResult": { "items": [ <item> ], "totalResultCount": N, "
 ```
 
 - 型規約: `price` は整数円 or **null**（取得失敗時）。`discount` / `deal` / `points` はオブジェクト or **null**（キー省略ではなく明示的null）
+- `url` / `image_url` も **null になりうる**（APIレスポンスにASINが含まれなかった場合）。フロントエンドは null を必ずハンドリングする（url null → リンク無しで表示、image_url null → プレースホルダ表示）
 - `discount.rate_percent` = `(ref_high - price) / ref_high * 100` を小数1桁に丸め。APIの `savings.percentage`（整数）より自前計算を優先
 - `points.rate_percent` = `points / price * 100` 小数1桁
 - 日時はすべて JST `YYYY/MM/DD HH:mm` 形式
@@ -159,10 +160,12 @@ searchItems→ { "searchResult": { "items": [ <item> ], "totalResultCount": N, "
 ## 6. 検証コマンド
 
 ```bash
-node --test scripts/                          # 全テスト。追加したテストが全緑であること
+node --test 'scripts/*.test.mjs'              # 全テスト。追加したテストが全緑であること
 node --env-file=.env scripts/update.mjs       # products.json 生成（実API。数件のcatalogで確認）
 python3 -m http.server 8000 --directory site  # フロントエンド手動確認用
 ```
+
+注意: `node --test scripts/`（ディレクトリ形式）は Node 24.0/24.1 のテストランナーのリグレッションで動作しない（この環境は 24.1.0）。必ず glob 形式を使うこと。
 
 ## 7. 委任実装プロトコル
 

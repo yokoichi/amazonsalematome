@@ -1,0 +1,45 @@
+{
+  "itemsResult": {
+    "items": [
+      {
+        "asin": "B0CQX67KTW",
+        "detailPageURL": "https://www.amazon.co.jp/dp/B0CQX67KTW?tag=yokoichi-22&linkCode=osi&th=1&psc=1",
+        "images": {
+          "primary": {
+            "medium": { "url": "https://m.media-amazon.com/images/I/sample-black.jpg", "height": 160, "width": 128 }
+          }
+        },
+        "itemInfo": {
+          "title": { "displayValue": "Anker PowerCore 10000 モバイルバッテリー ブラック", "label": "Title", "locale": "ja_JP" }
+        },
+        "offersV2": {
+          "listings": [
+            {
+              "isBuyBoxWinner": true,
+              "price": {
+                "money": { "amount": 3490, "currency": "JPY", "displayAmount": "￥3,490" },
+                "savingBasis": {
+                  "money": { "amount": 4990, "currency": "JPY", "displayAmount": "￥4,990" },
+                  "savingBasisType": "LIST_PRICE",
+                  "savingBasisTypeLabel": "参考価格"
+                },
+                "savings": {
+                  "money": { "amount": 1500, "currency": "JPY", "displayAmount": "￥1,500" },
+                  "percentage": 30
+                }
+              },
+              "dealDetails": {
+                "badge": "タイムセール",
+                "startTime": "2026-07-01T00:00:00Z",
+                "endTime": "2026-07-10T15:00:00Z",
+                "accessType": "ALL",
+                "percentClaimed": 0
+              },
+              "loyaltyPoints": { "points": 35 }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
