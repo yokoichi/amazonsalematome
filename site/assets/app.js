@@ -15,7 +15,6 @@ const state = {
   products: [],
   keyword: '',
   categories: new Set(),
-  themes: new Set(),
   saleOnly: false,
   sortKey: 'default',
   visibleCount: CHUNK_SIZE,
@@ -31,7 +30,6 @@ const els = {
   resetButton: document.getElementById('reset-button'),
   saleOnlyCheckbox: document.getElementById('sale-only-checkbox'),
   categoryChips: document.getElementById('category-chips'),
-  themeChips: document.getElementById('theme-chips'),
   productGrid: document.getElementById('product-grid'),
   emptyMessage: document.getElementById('empty-message'),
   loadMoreButton: document.getElementById('load-more-button'),
@@ -69,7 +67,7 @@ function buildChips(container, values, selectedSet, onToggle) {
 }
 
 function renderFacetChips() {
-  const { categories, themes } = extractFacets(state.products);
+  const { categories } = extractFacets(state.products);
 
   buildChips(els.categoryChips, categories, state.categories, (value) => {
     if (state.categories.has(value)) state.categories.delete(value);
@@ -91,14 +89,6 @@ function renderFacetChips() {
     render();
   });
   els.categoryChips.insertBefore(allButton, els.categoryChips.firstChild);
-
-  buildChips(els.themeChips, themes, state.themes, (value) => {
-    if (state.themes.has(value)) state.themes.delete(value);
-    else state.themes.add(value);
-    state.visibleCount = CHUNK_SIZE;
-    renderFacetChips();
-    render();
-  });
 }
 
 function applyGridCols(cols) {
@@ -269,7 +259,6 @@ function render() {
   const filtered = filterProducts(state.products, {
     keyword: state.keyword,
     categories: state.categories,
-    themes: state.themes,
     saleOnly: state.saleOnly,
   });
   const sorted = sortProducts(filtered, state.sortKey, [...state.categories]);
@@ -304,7 +293,6 @@ function handleSentinelIntersect() {
 function resetFilters() {
   state.keyword = '';
   state.categories = new Set();
-  state.themes = new Set();
   state.saleOnly = false;
   state.sortKey = 'default';
   state.visibleCount = CHUNK_SIZE;
