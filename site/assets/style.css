@@ -438,3 +438,35 @@ body {
   font-size: 0.78rem;
   color: var(--color-text-muted);
 }
+
+.site-footer a {
+  color: var(--color-accent);
+}
+
+/* Legal pages (privacy.html) */
+
+.legal-content {
+  max-width: 760px;
+  padding: 40px 0 64px;
+}
+
+.legal-content h2 {
+  margin: 32px 0 12px;
+  font-size: 1.1rem;
+  color: var(--color-text);
+}
+
+.legal-content h2:first-child {
+  margin-top: 0;
+}
+
+.legal-content p {
+  margin: 0 0 16px;
+  color: var(--color-text);
+}
+
+.legal-content .back-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--color-accent);
+}
