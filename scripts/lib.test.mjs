@@ -10,6 +10,7 @@ import {
   itemToProduct,
   computeMeta,
   formatJst,
+  mergeRows,
 } from "./lib.mjs";
 
 function loadFixtureItem(name) {
@@ -180,4 +181,45 @@ test("formatJst: YYYY/MM/DD HH:mm in JST", () => {
   // 2026-07-06T21:00:00Z == 2026-07-07 06:00 JST (UTC+9).
   assert.equal(formatJst(new Date("2026-07-06T21:00:00Z")), "2026/07/07 06:00");
   assert.match(formatJst(new Date()), /^\d{4}\/\d{2}\/\d{2} \d{2}:\d{2}$/);
+});
+
+// ---------------------------------------------------------------------------
+// 4. mergeRows (catalog.csv + catalog-auto.csv merge for update.mjs)
+// ---------------------------------------------------------------------------
+
+const catalogRow = (asin, extra = {}) => ({
+  asin,
+  category: "充電・モバイル",
+  themes: [],
+  title_override: "",
+  note: "",
+  ...extra,
+});
+
+test("mergeRows: no overlap -> catalog rows then auto rows, in order", () => {
+  const catalogRows = [catalogRow("A"), catalogRow("B")];
+  const autoRows = [catalogRow("C"), catalogRow("D")];
+  const merged = mergeRows(catalogRows, autoRows);
+  assert.deepEqual(
+    merged.map((r) => r.asin),
+    ["A", "B", "C", "D"],
+  );
+});
+
+test("mergeRows: ASIN present in both -> catalog row wins, auto row dropped", () => {
+  const catalogRows = [catalogRow("A", { note: "human-managed" })];
+  const autoRows = [catalogRow("A", { note: "auto-discovered" })];
+  const merged = mergeRows(catalogRows, autoRows);
+  assert.equal(merged.length, 1);
+  assert.equal(merged[0].note, "human-managed");
+});
+
+test("mergeRows: empty autoRows -> catalogRows passthrough", () => {
+  const catalogRows = [catalogRow("A"), catalogRow("B")];
+  assert.deepEqual(mergeRows(catalogRows, []), catalogRows);
+});
+
+test("mergeRows: empty catalogRows -> autoRows passthrough", () => {
+  const autoRows = [catalogRow("A"), catalogRow("B")];
+  assert.deepEqual(mergeRows([], autoRows), autoRows);
 });

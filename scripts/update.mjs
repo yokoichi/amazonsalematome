@@ -1,8 +1,11 @@
 #!/usr/bin/env node
-// Generate site/data/products.json from data/catalog.csv (AGENTS.md §3).
+// Generate site/data/products.json from data/catalog.csv, merged with
+// data/catalog-auto.csv when present (AGENTS.md §3).
 //
-// Flow: parse catalog.csv -> getItems in batches of 10 -> map to product
-// objects -> compute meta -> write site/data/products.json.
+// Flow: parse catalog.csv (+ catalog-auto.csv if it exists, merged via
+// mergeRows with catalog.csv taking priority on ASIN overlap) -> getItems in
+// batches of 10 -> map to product objects -> compute meta -> write
+// site/data/products.json.
 //
 // Failure policy:
 // - ASINs missing from a successful API response stay in the output with
@@ -18,16 +21,31 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 import { getItems, DEFAULT_RESOURCES } from "./creators-api.mjs";
-import { parseCatalog, itemToProduct, computeMeta, formatJst, chunk } from "./lib.mjs";
+import { parseCatalog, itemToProduct, computeMeta, formatJst, chunk, mergeRows } from "./lib.mjs";
 
 const ROOT = fileURLToPath(new URL("..", import.meta.url));
 const CATALOG_PATH = path.join(ROOT, "data", "catalog.csv");
+const AUTO_CATALOG_PATH = path.join(ROOT, "data", "catalog-auto.csv");
 const OUTPUT_PATH = path.join(ROOT, "site", "data", "products.json");
 const BATCH_SIZE = 10;
 
-async function main() {
+async function readCatalogRows() {
   const csv = await readFile(CATALOG_PATH, "utf8");
-  const rows = parseCatalog(csv);
+  const catalogRows = parseCatalog(csv);
+
+  let autoRows = [];
+  try {
+    const autoCsv = await readFile(AUTO_CATALOG_PATH, "utf8");
+    autoRows = parseCatalog(autoCsv);
+  } catch (err) {
+    if (err.code !== "ENOENT") throw err;
+  }
+
+  return mergeRows(catalogRows, autoRows);
+}
+
+async function main() {
+  const rows = await readCatalogRows();
   if (rows.length === 0) {
     throw new Error("catalog.csv contains no product rows");
   }

@@ -28,13 +28,19 @@ jobs:
           # Pinned to 22 LTS: Node 24.0/24.1 have a test runner regression.
           node-version: '22'
 
+      - name: Discover deal products
+        run: node scripts/discover-deals.mjs
+        env:
+          CREATORS_CLIENT_ID: ${{ secrets.CREATORS_CLIENT_ID }}
+          CREATORS_CLIENT_SECRET: ${{ secrets.CREATORS_CLIENT_SECRET }}
+
       - name: Fetch prices and regenerate products.json
         run: node scripts/update.mjs
         env:
           CREATORS_CLIENT_ID: ${{ secrets.CREATORS_CLIENT_ID }}
           CREATORS_CLIENT_SECRET: ${{ secrets.CREATORS_CLIENT_SECRET }}
 
-      - name: Commit and push if products.json changed
+      - name: Commit and push if catalog-auto.csv or products.json changed
         id: commit
         # Pushes made with the default GITHUB_TOKEN do NOT trigger other
         # workflows' `push` events (GitHub's recursion guard), so this push
@@ -43,11 +49,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- site/data/products.json; then
+          git add data/catalog-auto.csv site/data/products.json
+          if git diff --cached --quiet; then
             echo "pushed=false" >> "$GITHUB_OUTPUT"
           else
-            git add site/data/products.json
-            git commit -m "chore: update prices"
+            git commit -m "chore: update prices and discover deals"
             git push
             echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi

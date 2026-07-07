@@ -15,10 +15,13 @@ site/                     # GitHub Pages 公開ルート（静的サイト本体
 └── data/products.json    # scripts/update.mjs が生成（手編集禁止）
 scripts/
 ├── creators-api.mjs      # Creators API クライアント（token取得＋getItems/searchItems）
-├── update.mjs            # data/catalog.csv → site/data/products.json
+├── update.mjs            # data/catalog.csv + data/catalog-auto.csv → site/data/products.json
 ├── build-catalog.mjs     # searchItems で候補商品を収集し CSV 出力（初期構築用ツール）
+├── discover-deals.mjs    # searchItems でセール中商品を自動発見し data/catalog-auto.csv を生成
 └── *.test.mjs            # node --test 用テスト（fixture ベース）
 data/catalog.csv          # 商品マスタ（人間が編集する。エージェントは行の増減禁止）
+data/catalog-auto.csv     # discover-deals.mjs が生成（毎回完全上書き。手編集禁止）
+data/discovery-queries.json  # discover-deals.mjs 用の検索クエリ定義（人間が編集）
 .github/workflows/update-prices.yml
 ```
 
@@ -155,6 +158,7 @@ searchItems→ { "searchResult": { "items": [ <item> ], "totalResultCount": N, "
 - アソシエイトタグ `yokoichi-22` を変更・省略しない。`detailPageURL` を自前組み立てURLに置き換えない
 - `data/catalog.csv` の商品行を追加・削除・並べ替えしない（スキーマ変更が必要な場合は質問）
 - `site/data/products.json` を手書きで編集しない（必ず update.mjs 経由で生成）
+- `data/catalog-auto.csv` を手書きで編集しない（必ず discover-deals.mjs 経由で生成。毎回完全上書きされる）
 - git commit / push をしない（コミットはレビュー後にメインが行う）
 
 ## 6. 検証コマンド

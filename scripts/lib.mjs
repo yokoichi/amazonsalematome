@@ -305,3 +305,125 @@ export function mergeCandidates(candidates) {
   }
   return order.map((asin) => byAsin.get(asin));
 }
+
+// ---------------------------------------------------------------------------
+// Below: pure logic shared by scripts/discover-deals.mjs (automated deal
+// discovery tool). Not used by update.mjs or build-catalog.mjs.
+// ---------------------------------------------------------------------------
+
+/**
+ * Determine whether a searchItems/getItems item is currently on an active
+ * deal: it has a dealDetails badge, or its savings.percentage meets/exceeds
+ * minPercent. Both fields are optional per AGENTS.md §2 ("無いことがある").
+ * @param {object|null} item raw API item
+ * @param {number} [minPercent] minimum savings percentage to qualify (default 5)
+ * @returns {boolean}
+ */
+export function itemHasActiveDeal(item, minPercent = 5) {
+  const listing = item?.offersV2?.listings?.[0] ?? null;
+  if (!listing) return false;
+  const hasDealBadge = typeof listing.dealDetails?.badge === "string";
+  const savingsPercent = listing.price?.savings?.percentage;
+  const hasQualifyingSavings = typeof savingsPercent === "number" && savingsPercent >= minPercent;
+  return hasDealBadge || hasQualifyingSavings;
+}
+
+/**
+ * Compute the discount rate (percent) used to rank auto-discovered deal
+ * items, preferring the same "own calculation from savingBasis" convention
+ * as itemToProduct over the API's integer savings.percentage. Returns 0
+ * when no rate can be determined (e.g. a dealDetails badge with no
+ * associated price figures) so such items rank last, not excluded.
+ * Unlike itemToProduct's discount field, this is not rounded -- it exists
+ * purely for sorting/capping, never surfaced to users.
+ * @param {object|null} item raw API item
+ * @returns {number}
+ */
+export function dealRateOf(item) {
+  const listing = item?.offersV2?.listings?.[0] ?? null;
+  const price = listing?.price?.money?.amount ?? null;
+  const refHigh = listing?.price?.savingBasis?.money?.amount ?? null;
+  if (price !== null && refHigh !== null && refHigh > 0) {
+    return ((refHigh - price) / refHigh) * 100;
+  }
+  const savingsPercent = listing?.price?.savings?.percentage;
+  if (typeof savingsPercent === "number") return savingsPercent;
+  return 0;
+}
+
+/**
+ * Map a searchItems response to catalog.csv-shaped rows, keeping only items
+ * that are on an active deal (itemHasActiveDeal) and not already present in
+ * excludeAsins (e.g. ASINs already in data/catalog.csv). themes/
+ * title_override/note are always empty for auto-discovered rows. Each row
+ * also carries a `rate` field (dealRateOf) for ranking/capping by the
+ * caller; it is not a catalog.csv column and is dropped by
+ * catalogRowToCsvRow.
+ * @param {object} response raw searchItems response
+ * @param {{category: string}} query
+ * @param {Set<string>} excludeAsins ASINs to skip
+ * @param {number} [minPercent]
+ * @returns {{asin:string,category:string,themes:string[],title_override:string,note:string,rate:number}[]}
+ */
+export function searchItemsToDealRows(response, query, excludeAsins, minPercent = 5) {
+  const items = response?.searchResult?.items ?? [];
+  const rows = [];
+  for (const item of items) {
+    if (!item?.asin) continue;
+    if (excludeAsins.has(item.asin)) continue;
+    if (!itemHasActiveDeal(item, minPercent)) continue;
+    rows.push({
+      asin: item.asin,
+      category: query.category,
+      themes: [],
+      title_override: "",
+      note: "",
+      rate: dealRateOf(item),
+    });
+  }
+  return rows;
+}
+
+/**
+ * Deduplicate catalog.csv-shaped rows by ASIN, preserving first-seen order
+ * and the first occurrence's fields (no field merging, unlike
+ * mergeCandidates -- auto-discovered rows carry no themes to union).
+ * @param {{asin:string}[]} rows
+ * @returns {object[]}
+ */
+export function dedupeRowsByAsin(rows) {
+  const seen = new Set();
+  const out = [];
+  for (const row of rows) {
+    if (seen.has(row.asin)) continue;
+    seen.add(row.asin);
+    out.push(row);
+  }
+  return out;
+}
+
+/**
+ * Serialize a catalog.csv-shaped row object to a CSV row array
+ * (header: asin,category,themes,title_override,note).
+ * @param {{asin:string,category:string,themes:string[],title_override:string,note:string}} row
+ * @returns {string[]}
+ */
+export function catalogRowToCsvRow(row) {
+  return [row.asin, row.category, row.themes.join("|"), row.title_override, row.note];
+}
+
+/**
+ * Merge human-managed catalog.csv rows with auto-discovered
+ * catalog-auto.csv rows (used by update.mjs). catalogRows always take
+ * priority: an ASIN present in both keeps only the catalogRows version.
+ * catalogRows appear first, followed by autoRows whose ASIN is not already
+ * in catalogRows, both in their original relative order.
+ * @param {{asin:string}[]} catalogRows
+ * @param {{asin:string}[]} autoRows
+ * @returns {object[]}
+ */
+export function mergeRows(catalogRows, autoRows) {
+  const catalogAsins = new Set(catalogRows.map((row) => row.asin));
+  const extraAutoRows = autoRows.filter((row) => !catalogAsins.has(row.asin));
+  return [...catalogRows, ...extraAutoRows];
+}
