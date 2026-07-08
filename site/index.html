@@ -15,6 +15,10 @@
   <div class="container">
     <h1 class="site-title">横田裕市のAmazonセールおすすめポータル</h1>
     <p class="site-subcopy">写真家・横田裕市の趣向と実際に使って選んだ愛用品・おすすめ品のセール情報を自動更新でお届け</p>
+    <div class="hero-search">
+      <span class="hero-search-icon" aria-hidden="true">🔍</span>
+      <input type="search" id="keyword-input" class="keyword-input" placeholder="商品名で検索（例: Anker, SDカード）" aria-label="キーワード検索">
+    </div>
   </div>
 </header>
 
@@ -33,10 +37,11 @@
       <span class="stat-value" id="stat-updated">-</span>
     </div>
   </section>
+</div>
 
-  <section class="filters" aria-label="絞り込み">
+<section class="toolbar" aria-label="絞り込み">
+  <div class="container">
     <div class="filters-row">
-      <input type="search" id="keyword-input" class="keyword-input" placeholder="商品名で検索" aria-label="キーワード検索">
       <select id="sort-select" class="sort-select" aria-label="並び替え">
         <option value="default">おすすめ順</option>
         <option value="discount_desc">割引率順</option>
@@ -49,15 +54,18 @@
         <button type="button" class="grid-cols-btn" data-cols="5">5列</button>
         <button type="button" class="grid-cols-btn" data-cols="6">6列</button>
       </div>
-      <button type="button" id="reset-button" class="reset-button">リセット</button>
-    </div>
-    <div class="filters-row">
       <label class="sale-only-toggle">
         <input type="checkbox" id="sale-only-checkbox">
         <span>セール中のみ</span>
       </label>
+      <button type="button" id="reset-button" class="reset-button">リセット</button>
     </div>
-    <div class="chip-group" id="category-chips" aria-label="カテゴリで絞り込み"></div>
+  </div>
+</section>
+
+<div class="container">
+  <section class="category-nav" aria-label="カテゴリで絞り込み">
+    <div class="chip-group" id="category-chips"></div>
   </section>
 
   <section aria-label="商品一覧">
@@ -73,9 +81,9 @@
 
 <footer class="site-footer">
   <div class="container">
-    <p>価格は約6時間ごとに自動取得しています。表示価格は取得時点のものであり、最新の価格はAmazonの商品ページでご確認ください。</p>
+    <p>掲載中の価格・割引情報はAmazon Creators APIから約6時間おきに自動更新しています。実際の販売価格は変動することがあるため、ご購入の際はAmazonの商品ページで最新の情報をご確認ください。</p>
     <p>Amazonのアソシエイトとして、当サイトは適格販売により収入を得ています。</p>
-    <p><a href="privacy.html">プライバシーポリシー</a></p>
+    <p>運営: 写真家・横田裕市 | <a href="privacy.html">プライバシーポリシー</a></p>
   </div>
 </footer>
 

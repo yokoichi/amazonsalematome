@@ -17,8 +17,11 @@
 - [x] 10. UI変更: ページ番号方式 → 無限スクロール（500件毎に「さらに表示する」ゲート） — Sonnet 5委任
 - [x] 11. セール商品自動発見: discover-deals.mjs新設・update.mjs統合・ワークフロー組込・ユーザー指定3商品追加 — Sonnet 5（本人実装）
 - [x] 12. UI修正: ジャンルパートの「愛用ブランド」「記事で紹介」テーマ絞り込みチップを削除 — Sonnet 5（本人実装）
+- [x] 13. UI刷新: 参照元類似の解消（モダンECアプリ風: グラデーションヒーロー・stickyツールバー・脱罫線カード） — Sonnet 5委任
 
 ## レビュー記録
+
+- タスク13（Sonnet 5委任）: **合格**。参照元（ちもろぐ価格トラッカー）と構造・見た目が酷似していたUIを「モダンECアプリ風」に全面刷新。実際に参照元のHTML/CSSを取得して類似点（ページ構造の並び・フッター逐語一致・枠線カード）を特定した上でデザイン仕様を確定し、ディスパッチプロンプトに全文埋め込んで委任。変更は`site/index.html`（検索バーをヒーロー内へ移動・統計オーバーラップカード化・.filters→sticky .toolbar+.category-nav分割・フッター3行書き直し+運営者名追記）/`site/assets/style.css`（トークン全面改訂・--grad-hero・radius 16px・レイヤードシャドウ・チップ塗りピル化・.card-mediaダークでも白固定・color-mix fallback付きblurツールバー）/`site/privacy.html`（.site-header--compactで統一）の3ファイルのみ、app.jsは無変更（全12参照ID維持を確認）。テスト107/107 green。ブラウザ実機確認: ライト/ダーク・デスクトップ/モバイル(2列維持)・sticky追従+blur・チップ絞り込み・ヒーロー内検索・無限スクロール回帰(20→40)・privacy統一・コンソールエラー0。**委任トラブル1件**: 1回目の委任先が検証後のクリーンアップとして`git checkout -- site/`を実行し未コミット変更を全消去→報告と実態の乖離をレビューゲート（git status照合）で検出→follow-up差し戻しで再適用させ解決（詳細はlessons.md）。逸脱2点（--color-bg-subtleのフッター統合先を--color-surfaceに/--shadow-card-restingトークン新設）はいずれも妥当として承認。
 
 - タスク12（Sonnet 5・本人実装）: **完了**。カテゴリチップ群の下にあった「❤️愛用ブランド」「📝記事で紹介」のテーマ絞り込みチップ行をUIから削除。`site/index.html`の`#theme-chips`div、`site/assets/app.js`の`state.themes`/`els.themeChips`/`renderFacetChips()`内のテーマchip生成ブロック/`render()`の`themes`フィルタ引数/`resetFilters()`の`state.themes`リセットを削除。商品カード個別のテーマバッジ表示（`createThemeBadges`、`THEME_LABELS`）とAPI/ソートロジック（`app-logic.mjs`の`matchesThemes`・`groupRankDefault`・`extractFacets`）はスコープ外として変更せず維持（記事で紹介/愛用ブランド商品は引き続きおすすめ順で優先表示される）。テスト107/107（app-logic.mjs無変更のため件数不変）。ブラウザ実機確認でカテゴリ行のみになったこと・カテゴリチップのフィルタ動作（クリックで絞り込み+アクティブ表示）が正常なことを確認。検証中、`preview_stop`→`preview_start`でサーバを再起動してもブラウザタブ側にHTTPキャッシュされた旧app.jsが残り、削除済みDOM要素への参照で例外が起き商品グリッドが空になる現象に遭遇（コード自体は正常。`fetch(..., {cache:'no-store'})`で実配信内容を確認して切り分けた。詳細はlessons.md）。逸脱なし。
 
