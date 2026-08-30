@@ -3,7 +3,7 @@
     "site_name": "横田裕市のAmazonセールおすすめポータル",
     "total": 835,
     "discount_count": 679,
-    "updated_at": "2026/08/31 03:25"
+    "updated_at": "2026/08/31 08:08"
   },
   "products": [
     {
@@ -22,7 +22,7 @@
         "total": 318,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08737W28D",
@@ -43,7 +43,7 @@
         "total": 188,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07T89V5Z9",
@@ -61,7 +61,7 @@
         "total": 178,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F6N1TZD1",
@@ -85,7 +85,7 @@
         "total": 446,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F6MTW7HK",
@@ -103,7 +103,7 @@
         "total": 298,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F6MW9MB3",
@@ -118,7 +118,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F768JMKD",
@@ -136,7 +136,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BDTV7H5X",
@@ -157,7 +157,7 @@
         "total": 548,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DM1C2K2K",
@@ -168,17 +168,17 @@
         "favorite-brand"
       ],
       "image_url": "https://m.media-amazon.com/images/I/51D22ResoEL._SL160_.jpg",
-      "price": 27800,
+      "price": 26800,
       "discount": {
         "ref_high": 29110,
-        "rate_percent": 4.5
+        "rate_percent": 7.9
       },
       "deal": null,
       "points": {
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CHYCKMQM",
@@ -196,7 +196,7 @@
         "total": 152,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DM1T4BXG",
@@ -217,7 +217,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DM1RBMD7",
@@ -238,7 +238,7 @@
         "total": 289,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DM1G924N",
@@ -259,7 +259,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F8B61DL3",
@@ -277,7 +277,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F8NKBP6B",
@@ -301,7 +301,7 @@
         "total": 552,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DM1LP4XQ",
@@ -319,7 +319,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C1TPNNTK",
@@ -335,7 +335,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FJLWGL9W",
@@ -357,7 +357,7 @@
         "total": 200,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09H19L9B4",
@@ -366,14 +366,14 @@
       "category": "カメラ・撮影機材",
       "themes": [],
       "image_url": "https://m.media-amazon.com/images/I/31Y+twZdZyL._SL160_.jpg",
-      "price": 47558,
+      "price": 46348,
       "discount": null,
       "deal": null,
       "points": {
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DNGM3QJM",
@@ -389,7 +389,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B21CCXT9",
@@ -413,7 +413,7 @@
         "total": 49,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B21BB745",
@@ -431,7 +431,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09X7FXHVJ",
@@ -449,7 +449,7 @@
         "total": 80,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09X7C7NCZ",
@@ -467,7 +467,7 @@
         "total": 48,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DNLZBCMC",
@@ -491,7 +491,7 @@
         "total": 517,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BSDB1TQS",
@@ -509,7 +509,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BXH1V287",
@@ -527,7 +527,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B1Q655TT",
@@ -551,7 +551,7 @@
         "total": 59,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BYCKY1MN",
@@ -575,7 +575,7 @@
         "total": 89,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08XQKFPLN",
@@ -599,7 +599,7 @@
         "total": 139,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07Z643F99",
@@ -623,7 +623,7 @@
         "total": 122,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0953G2H1H",
@@ -647,7 +647,7 @@
         "total": 106,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D8SY5LMZ",
@@ -660,7 +660,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D946QCX6",
@@ -676,7 +676,7 @@
         "total": 196,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C2PZMSXQ",
@@ -692,7 +692,7 @@
         "total": 209,
         "rate_percent": 1.1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F1ZVY68L",
@@ -708,7 +708,7 @@
         "total": 147,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CFDLHX8J",
@@ -724,7 +724,7 @@
         "total": 328,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FFM5YHPK",
@@ -743,7 +743,7 @@
         "total": 630,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07QVXS8SL",
@@ -756,7 +756,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0892C9Y3D",
@@ -772,7 +772,7 @@
         "total": 500,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BGLCKDS3",
@@ -794,7 +794,7 @@
         "total": 45,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B089ZY2MZQ",
@@ -816,7 +816,7 @@
         "total": 22,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09CGTNVSP",
@@ -835,7 +835,7 @@
         "total": 12,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09K57XSZS",
@@ -857,7 +857,7 @@
         "total": 1238,
         "rate_percent": 5
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09K56L19N",
@@ -879,7 +879,7 @@
         "total": 1099,
         "rate_percent": 5
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09K56MHY6",
@@ -901,7 +901,7 @@
         "total": 926,
         "rate_percent": 5
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BF54WXKG",
@@ -923,7 +923,7 @@
         "total": 1787,
         "rate_percent": 5
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07GGYKMVJ",
@@ -945,7 +945,7 @@
         "total": 26,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CTHBSSMG",
@@ -967,7 +967,7 @@
         "total": 106,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08HV8BVK3",
@@ -986,7 +986,7 @@
         "total": 28,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07BHSQ8TY",
@@ -1008,7 +1008,7 @@
         "total": 12,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07BHSKKSN",
@@ -1030,7 +1030,7 @@
         "total": 6,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00TTD5HDE",
@@ -1051,7 +1051,7 @@
         "total": 19,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B075ZV5TG8",
@@ -1069,7 +1069,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00MQEUXIM",
@@ -1091,7 +1091,7 @@
         "total": 186,
         "rate_percent": 2
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0018TVSSK",
@@ -1110,7 +1110,7 @@
         "total": 21,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D2ZZHSHH",
@@ -1132,7 +1132,7 @@
         "total": 179,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B000QUD1BE",
@@ -1151,7 +1151,7 @@
         "total": 23,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BZ7FV5SY",
@@ -1164,7 +1164,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08XVWXS3R",
@@ -1180,7 +1180,7 @@
         "total": 148,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07BN2VVYC",
@@ -1196,7 +1196,7 @@
         "total": 108,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B085V7ZXNS",
@@ -1212,7 +1212,7 @@
         "total": 110,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08JQ9FLNH",
@@ -1228,7 +1228,7 @@
         "total": 56,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07G95DZ7H",
@@ -1244,7 +1244,7 @@
         "total": 87,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D7YWTNHK",
@@ -1260,7 +1260,7 @@
         "total": 123,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07258TNZD",
@@ -1273,7 +1273,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07818LB9D",
@@ -1286,7 +1286,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B1JCPGDS",
@@ -1308,7 +1308,7 @@
         "total": 106,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09PV2J4G5",
@@ -1330,7 +1330,7 @@
         "total": 75,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FH22RB4S",
@@ -1352,7 +1352,7 @@
         "total": 583,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DZCBYCNY",
@@ -1374,7 +1374,7 @@
         "total": 763,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F32BQ7L3",
@@ -1393,7 +1393,7 @@
         "total": 465,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0152X16XO",
@@ -1409,7 +1409,7 @@
         "total": 35,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09GKLCP95",
@@ -1425,7 +1425,7 @@
         "total": 26,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07Y1TKXVK",
@@ -1441,7 +1441,7 @@
         "total": 14,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C2YPNP9P",
@@ -1463,7 +1463,7 @@
         "total": 12,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C5JQ68FY",
@@ -1481,7 +1481,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08P4CN4YC",
@@ -1505,7 +1505,7 @@
         "total": 351,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08HN37XC1",
@@ -1517,17 +1517,17 @@
         "favorite-brand"
       ],
       "image_url": "https://m.media-amazon.com/images/I/41eTFK7clfL._SL160_.jpg",
-      "price": 49510,
+      "price": 49888,
       "discount": {
         "ref_high": 56400,
-        "rate_percent": 12.2
+        "rate_percent": 11.5
       },
       "deal": null,
       "points": {
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08P49M11C",
@@ -1545,7 +1545,7 @@
         "total": 351,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CHFSWM2P",
@@ -1561,7 +1561,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DM23XSH6",
@@ -1577,7 +1577,7 @@
         "total": 444,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CHFS9K14",
@@ -1593,7 +1593,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07X41PWTY",
@@ -1612,7 +1612,7 @@
         "total": 368,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B06W55K9N6",
@@ -1631,7 +1631,7 @@
         "total": 196,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07VP5X239",
@@ -1650,7 +1650,7 @@
         "total": 375,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D3GW9R4G",
@@ -1669,7 +1669,7 @@
         "total": 460,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FHNVFZZ3",
@@ -1685,7 +1685,7 @@
         "total": 385,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FHP7S1HX",
@@ -1701,7 +1701,7 @@
         "total": 305,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B092R5KTT7",
@@ -1717,7 +1717,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B093BWYJ9Q",
@@ -1739,7 +1739,7 @@
         "total": 844,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DXKZV61R",
@@ -1758,7 +1758,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F6CT2RM6",
@@ -1777,7 +1777,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GTZC19FX",
@@ -1796,7 +1796,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DGKMQPYC",
@@ -1812,7 +1812,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B081F9KVBG",
@@ -1828,7 +1828,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B081F8TZVQ",
@@ -1847,7 +1847,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CQX67KTW",
@@ -1865,7 +1865,7 @@
         "total": 35,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DRFR2YT3",
@@ -1889,7 +1889,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CXNY69DC",
@@ -1913,7 +1913,7 @@
         "total": 68,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08HCVG4FB",
@@ -1932,7 +1932,7 @@
         "total": 60,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F6LBT3ZX",
@@ -1956,7 +1956,7 @@
         "total": 57,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CCJJGP6Y",
@@ -1974,7 +1974,7 @@
         "total": 559,
         "rate_percent": 14
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B099ZNTRL5",
@@ -1998,7 +1998,7 @@
         "total": 238,
         "rate_percent": 16
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CL8S8CS5",
@@ -2022,7 +2022,7 @@
         "total": 14,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FWJK8GV9",
@@ -2046,7 +2046,7 @@
         "total": 25,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BF43HS1G",
@@ -2070,7 +2070,7 @@
         "total": 28,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09CH44769",
@@ -2088,7 +2088,7 @@
         "total": 549,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GF29FF6N",
@@ -2112,7 +2112,7 @@
         "total": 34,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DPL8Y45P",
@@ -2136,7 +2136,7 @@
         "total": 27,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B093L6298K",
@@ -2160,7 +2160,7 @@
         "total": 14,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B071D8THD2",
@@ -2184,7 +2184,7 @@
         "total": 7,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0895RP9WX",
@@ -2208,7 +2208,7 @@
         "total": 12,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F1CN4WR2",
@@ -2232,7 +2232,7 @@
         "total": 9,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BRN2FKXX",
@@ -2250,7 +2250,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F2MRRKH7",
@@ -2274,7 +2274,7 @@
         "total": 150,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D7D8JP6Q",
@@ -2299,7 +2299,7 @@
         "total": 120,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D73JBJ56",
@@ -2323,7 +2323,7 @@
         "total": 63,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D8Q93VMG",
@@ -2344,7 +2344,7 @@
         "total": 200,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FKN98246",
@@ -2368,7 +2368,7 @@
         "total": 200,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BZ45NC3Z",
@@ -2392,7 +2392,7 @@
         "total": 99,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H329XGNF",
@@ -2405,7 +2405,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D53VKL36",
@@ -2427,7 +2427,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C42HDMQW",
@@ -2440,7 +2440,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FRMQD7RK",
@@ -2462,7 +2462,7 @@
         "total": 45,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GLGC5YFK",
@@ -2484,7 +2484,7 @@
         "total": 43,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D26DXXB7",
@@ -2506,7 +2506,7 @@
         "total": 48,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CJ28ZZ52",
@@ -2519,7 +2519,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DHBNPC69",
@@ -2541,7 +2541,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FXKF11B1",
@@ -2563,7 +2563,7 @@
         "total": 19,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CLGZGXMD",
@@ -2585,7 +2585,7 @@
         "total": 36,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DG93MZCR",
@@ -2604,7 +2604,7 @@
         "total": 16,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DNT9Z2HS",
@@ -2626,7 +2626,7 @@
         "total": 52,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BQMSXFP7",
@@ -2650,7 +2650,7 @@
         "total": 25,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CL9N481N",
@@ -2674,7 +2674,7 @@
         "total": 58,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B087TB7YM7",
@@ -2698,7 +2698,7 @@
         "total": 50,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CZ9P1QW9",
@@ -2717,7 +2717,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DK59YKRS",
@@ -2735,7 +2735,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0785D93KD",
@@ -2753,7 +2753,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08WT889V3",
@@ -2772,7 +2772,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DWZVX6CV",
@@ -2787,7 +2787,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CTMC2ZQH",
@@ -2805,7 +2805,7 @@
         "total": 130,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G5WYN13M",
@@ -2826,7 +2826,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07Q8TJ2KL",
@@ -2851,7 +2851,7 @@
         "total": 164,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DSJJMRFL",
@@ -2875,7 +2875,7 @@
         "total": 189,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B01FW15TV6",
@@ -2899,7 +2899,7 @@
         "total": 164,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09T78LQYQ",
@@ -2923,7 +2923,7 @@
         "total": 437,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DR2MHF2L",
@@ -2947,7 +2947,7 @@
         "total": 413,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08HCV1JGB",
@@ -2972,7 +2972,7 @@
         "total": 205,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B5XCMFQD",
@@ -2997,7 +2997,7 @@
         "total": 320,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CM9FHXF6",
@@ -3016,7 +3016,7 @@
         "total": 134,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CDWSWLWV",
@@ -3041,7 +3041,7 @@
         "total": 218,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CDWQS6NW",
@@ -3059,7 +3059,7 @@
         "total": 330,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CDWTVMDZ",
@@ -3077,7 +3077,7 @@
         "total": 100,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CDWTHBVD",
@@ -3095,7 +3095,7 @@
         "total": 388,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B082TSZ27D",
@@ -3113,7 +3113,7 @@
         "total": 369,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BFH7DBRV",
@@ -3134,7 +3134,7 @@
         "total": 339,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CL76JB2M",
@@ -3152,7 +3152,7 @@
         "total": 440,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FT3VLWFM",
@@ -3173,7 +3173,7 @@
         "total": 596,
         "rate_percent": 2
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FR8KBS5K",
@@ -3197,7 +3197,7 @@
         "total": 130,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FR8LPP2K",
@@ -3221,7 +3221,7 @@
         "total": 170,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07QQR6G5N",
@@ -3245,7 +3245,7 @@
         "total": 52,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CGLGQ9PD",
@@ -3264,7 +3264,7 @@
         "total": 39,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07QNJ2YQD",
@@ -3280,7 +3280,7 @@
         "total": 114,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D1K8H4F5",
@@ -3302,7 +3302,7 @@
         "total": 84,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F8BV5Z31",
@@ -3324,7 +3324,7 @@
         "total": 120,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D3WT12Y8",
@@ -3346,7 +3346,7 @@
         "total": 28,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B091B4SWR7",
@@ -3368,7 +3368,7 @@
         "total": 17,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DC6FTKRD",
@@ -3390,7 +3390,7 @@
         "total": 25,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09H6MY31J",
@@ -3408,7 +3408,7 @@
         "total": 1188,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DSJBWQ3X",
@@ -3426,7 +3426,7 @@
         "total": 2288,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D9JFC7JC",
@@ -3445,7 +3445,7 @@
         "total": 1788,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D2W63XYY",
@@ -3464,7 +3464,7 @@
         "total": 2788,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D9JJG52V",
@@ -3482,7 +3482,7 @@
         "total": 1788,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FNRS5WB2",
@@ -3506,7 +3506,7 @@
         "total": 50,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CP4RQZ3L",
@@ -3530,7 +3530,7 @@
         "total": 65,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D2RJNXQ2",
@@ -3554,7 +3554,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BB1PFCS3",
@@ -3575,7 +3575,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07PT8BZ1M",
@@ -3599,7 +3599,7 @@
         "total": 100,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B01NAVANRX",
@@ -3624,7 +3624,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DTPM5N5Q",
@@ -3646,7 +3646,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GDYZDNMY",
@@ -3670,7 +3670,7 @@
         "total": 63,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FCSGGHLL",
@@ -3679,17 +3679,17 @@
       "category": "オーディオ",
       "themes": [],
       "image_url": "https://m.media-amazon.com/images/I/31M7uzqFLEL._SL160_.jpg",
-      "price": 30600,
+      "price": 33936,
       "discount": {
         "ref_high": 39600,
-        "rate_percent": 22.7
+        "rate_percent": 14.3
       },
       "deal": null,
       "points": {
-        "total": 306,
+        "total": 339,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DBQNCZDG",
@@ -3708,7 +3708,7 @@
         "total": 227,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FL2HYBGJ",
@@ -3727,7 +3727,7 @@
         "total": 459,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CFY9LNWS",
@@ -3743,7 +3743,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D93LP3TJ",
@@ -3765,7 +3765,7 @@
         "total": 120,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D93NFXVL",
@@ -3789,7 +3789,7 @@
         "total": 185,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GYW2C2B5",
@@ -3811,7 +3811,7 @@
         "total": 255,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B6GHW1SX",
@@ -3830,7 +3830,7 @@
         "total": 348,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H1YDZJQP",
@@ -3849,7 +3849,7 @@
         "total": 636,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B01AXUCA8G",
@@ -3865,7 +3865,7 @@
         "total": 238,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07QJ6RZN6",
@@ -3887,7 +3887,7 @@
         "total": 65,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00HVLUR86",
@@ -3906,7 +3906,7 @@
         "total": 220,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09QMCFQJL",
@@ -3927,7 +3927,7 @@
         "total": 110,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CP7P4RRQ",
@@ -3943,7 +3943,7 @@
         "total": 129,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F3D55D5R",
@@ -3965,7 +3965,7 @@
         "total": 56,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CP7QXWPN",
@@ -3983,7 +3983,7 @@
         "total": 164,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DT6S7NZ8",
@@ -4008,7 +4008,7 @@
         "total": 18,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07TTH5TMW",
@@ -4026,7 +4026,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BM8VS13P",
@@ -4050,7 +4050,7 @@
         "total": 85,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C9TKSP8V",
@@ -4074,7 +4074,7 @@
         "total": 70,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DWDQYLXG",
@@ -4098,7 +4098,7 @@
         "total": 135,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FB3LPDBQ",
@@ -4119,7 +4119,7 @@
         "total": 86,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09KCF5Z79",
@@ -4143,7 +4143,7 @@
         "total": 34,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07B7NXV4R",
@@ -4164,7 +4164,7 @@
         "total": 43,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C22W4Y5H",
@@ -4188,7 +4188,7 @@
         "total": 55,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CJCG4Q4J",
@@ -4212,7 +4212,7 @@
         "total": 102,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C22VNG6M",
@@ -4236,7 +4236,7 @@
         "total": 68,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FJRJBPQJ",
@@ -4260,7 +4260,7 @@
         "total": 90,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F1FCZYV6",
@@ -4276,7 +4276,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F1FB6PT8",
@@ -4300,7 +4300,7 @@
         "total": 398,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DLG93BX5",
@@ -4322,7 +4322,7 @@
         "total": 250,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GN252LY5",
@@ -4338,7 +4338,7 @@
         "total": 498,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CQQ29K2W",
@@ -4356,7 +4356,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FP69CPG6",
@@ -4374,7 +4374,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09WQZHBTN",
@@ -4390,7 +4390,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CY5DL6YW",
@@ -4414,7 +4414,7 @@
         "total": 88,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DWWZ1FMK",
@@ -4438,7 +4438,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DVJ64ZLT",
@@ -4456,7 +4456,7 @@
         "total": 70,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G2TXBSWJ",
@@ -4477,7 +4477,7 @@
         "total": 123,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CN415PTV",
@@ -4492,7 +4492,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09B8SZLLG",
@@ -4508,7 +4508,7 @@
         "total": 75,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DKLWZY2Z",
@@ -4524,7 +4524,7 @@
         "total": 150,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CFPL6CFY",
@@ -4540,7 +4540,7 @@
         "total": 280,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CFPHTMDX",
@@ -4556,7 +4556,7 @@
         "total": 330,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CP31L73X",
@@ -4569,7 +4569,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C2XN8HKD",
@@ -4585,7 +4585,7 @@
         "total": 200,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CVDJ4JX6",
@@ -4601,7 +4601,7 @@
         "total": 180,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07VZ9BD7B",
@@ -4620,7 +4620,7 @@
         "total": 719,
         "rate_percent": 6
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FHHBG5JR",
@@ -4644,7 +4644,7 @@
         "total": 791,
         "rate_percent": 6
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CGTYT12R",
@@ -4668,7 +4668,7 @@
         "total": 527,
         "rate_percent": 6
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C1FYXYLT",
@@ -4693,7 +4693,7 @@
         "total": 743,
         "rate_percent": 6
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CF8KW43N",
@@ -4709,7 +4709,7 @@
         "total": 375,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CMQNFZ1T",
@@ -4731,7 +4731,7 @@
         "total": 251,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CHFPPP7N",
@@ -4747,7 +4747,7 @@
         "total": 245,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CJ4YFMQ9",
@@ -4763,7 +4763,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BWHKPCLJ",
@@ -4776,7 +4776,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07NS2SV3W",
@@ -4795,7 +4795,7 @@
         "total": 26,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GTSVXZD5",
@@ -4811,7 +4811,7 @@
         "total": 12,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B088HJCVDX",
@@ -4833,7 +4833,7 @@
         "total": 610,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CM5LSZYF",
@@ -4852,7 +4852,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08G85YYPY",
@@ -4868,7 +4868,7 @@
         "total": 88,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08XV5MPBS",
@@ -4887,7 +4887,7 @@
         "total": 207,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00076ZD36",
@@ -4909,7 +4909,7 @@
         "total": 25,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B000EAQXES",
@@ -4931,7 +4931,7 @@
         "total": 33,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0051OOM68",
@@ -4950,7 +4950,7 @@
         "total": 34,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BCFTCC8P",
@@ -4966,7 +4966,7 @@
         "total": 170,
         "rate_percent": 4.5
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BX8X66KY",
@@ -4982,7 +4982,7 @@
         "total": 150,
         "rate_percent": 4.5
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07G4YXMNK",
@@ -5000,7 +5000,7 @@
         "total": 39,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B007V6NUIU",
@@ -5016,7 +5016,7 @@
         "total": 47,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07YYQQ1Q2",
@@ -5025,17 +5025,17 @@
       "category": "コーヒー・キッチン",
       "themes": [],
       "image_url": "https://m.media-amazon.com/images/I/51RkXafdXRL._SL160_.jpg",
-      "price": 5095,
+      "price": 5285,
       "discount": {
         "ref_high": 6600,
-        "rate_percent": 22.8
+        "rate_percent": 19.9
       },
       "deal": null,
       "points": {
-        "total": 51,
+        "total": 53,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0000C8TNK",
@@ -5051,7 +5051,7 @@
         "total": 36,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CQTP3WM4",
@@ -5070,7 +5070,7 @@
         "total": 26,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CQTPD4WW",
@@ -5091,7 +5091,7 @@
         "total": 29,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CQTQ1M97",
@@ -5110,7 +5110,7 @@
         "total": 27,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DSFMMZW3",
@@ -5128,7 +5128,7 @@
         "total": 12,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08MLHVQMD",
@@ -5149,7 +5149,7 @@
         "total": 9,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CS9KCBLG",
@@ -5160,14 +5160,14 @@
         "favorite-brand"
       ],
       "image_url": "https://m.media-amazon.com/images/I/21q51jojh6L._SL160_.jpg",
-      "price": 1282,
+      "price": 1234,
       "discount": null,
       "deal": null,
       "points": {
-        "total": 13,
+        "total": 12,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CS9JWVMK",
@@ -5185,7 +5185,7 @@
         "total": 12,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B004VC7VCS",
@@ -5203,7 +5203,7 @@
         "total": 15,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B072TBYM2K",
@@ -5219,7 +5219,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B01ASV8LSI",
@@ -5235,7 +5235,7 @@
         "total": 44,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B001NCDE7U",
@@ -5253,7 +5253,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BMSBZHQF",
@@ -5274,7 +5274,7 @@
         "total": 19,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B001NCDE8O",
@@ -5289,7 +5289,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FVD2FM33",
@@ -5300,14 +5300,14 @@
         "article"
       ],
       "image_url": "https://m.media-amazon.com/images/I/21qMjUcyvxL._SL160_.jpg",
-      "price": 5345,
+      "price": 5399,
       "discount": null,
       "deal": null,
       "points": {
-        "total": 0,
-        "rate_percent": 0
+        "total": 54,
+        "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FVFF3TT4",
@@ -5318,14 +5318,14 @@
         "article"
       ],
       "image_url": "https://m.media-amazon.com/images/I/21lTUsPqLFL._SL160_.jpg",
-      "price": 5791,
+      "price": 5849,
       "discount": null,
       "deal": null,
       "points": {
-        "total": 0,
-        "rate_percent": 0
+        "total": 58,
+        "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FVFFR4C8",
@@ -5336,14 +5336,14 @@
         "article"
       ],
       "image_url": "https://m.media-amazon.com/images/I/21Qiu5GBVTL._SL160_.jpg",
-      "price": 6235,
+      "price": 6298,
       "discount": null,
       "deal": null,
       "points": {
-        "total": 0,
-        "rate_percent": 0
+        "total": 63,
+        "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B005I6R0WC",
@@ -5362,7 +5362,7 @@
         "total": 101,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B01MQRHYJV",
@@ -5378,7 +5378,7 @@
         "total": 53,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09LNSNBZF",
@@ -5393,7 +5393,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D47ZZYP4",
@@ -5411,7 +5411,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C4M8L871",
@@ -5429,7 +5429,7 @@
         "total": 693,
         "rate_percent": 3
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CWTY3NB6",
@@ -5450,7 +5450,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GBTZS5LJ",
@@ -5465,7 +5465,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0869QSH4Y",
@@ -5486,7 +5486,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DLG8SSNY",
@@ -5504,7 +5504,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CV7DWY8D",
@@ -5519,7 +5519,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08RRKSYPY",
@@ -5537,7 +5537,7 @@
         "total": 605,
         "rate_percent": 5
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09NPM7KSH",
@@ -5553,7 +5553,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B085LD7L3F",
@@ -5572,7 +5572,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CX18GQDD",
@@ -5588,7 +5588,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DWMKZRJZ",
@@ -5601,7 +5601,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DK8PW5CM",
@@ -5614,7 +5614,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D3V61JC8",
@@ -5638,7 +5638,7 @@
         "total": 31,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D4DM19KF",
@@ -5662,7 +5662,7 @@
         "total": 45,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D3V5QN4P",
@@ -5686,7 +5686,7 @@
         "total": 45,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D1VTC31M",
@@ -5699,7 +5699,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FMKGNN34",
@@ -5715,7 +5715,7 @@
         "total": 158,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CZDVSHFD",
@@ -5731,7 +5731,7 @@
         "total": 88,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DB48CFG7",
@@ -5753,7 +5753,7 @@
         "total": 70,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09H2C3C68",
@@ -5769,7 +5769,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BDG14WLN",
@@ -5782,7 +5782,7 @@
       "discount": null,
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B085SC3Q4S",
@@ -5803,7 +5803,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B085SBKN4V",
@@ -5824,7 +5824,7 @@
         "total": 292,
         "rate_percent": 1.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BCWKC6ZL",
@@ -5848,7 +5848,7 @@
         "total": 9,
         "rate_percent": 0.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08GT4SWHK",
@@ -5869,7 +5869,7 @@
         "total": 13,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B092D5BYY2",
@@ -5887,7 +5887,7 @@
         "total": 16,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D2D85W9F",
@@ -5905,7 +5905,7 @@
         "total": 19,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B5CBKZ25",
@@ -5923,7 +5923,7 @@
         "total": 26,
         "rate_percent": 1.8
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C7BG32MB",
@@ -5942,7 +5942,7 @@
         "total": 21,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B097DVTZPJ",
@@ -5960,7 +5960,7 @@
         "total": 28,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B9G4QR1M",
@@ -5976,7 +5976,7 @@
         "total": 54,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B081DZMLYL",
@@ -5992,7 +5992,7 @@
         "total": 33,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DGFTDTJD",
@@ -6014,7 +6014,7 @@
         "total": 37,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FFN1RB6J",
@@ -6033,7 +6033,7 @@
         "total": 13,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GM6KKQYS",
@@ -6052,7 +6052,7 @@
         "total": 23,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FR9RFRCS",
@@ -6068,7 +6068,7 @@
         "total": 14,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FR9V9L2N",
@@ -6084,7 +6084,7 @@
         "total": 14,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CCPB4N5W",
@@ -6100,7 +6100,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DSZ8DH6T",
@@ -6116,7 +6116,7 @@
         "total": 31,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DSZ55V4S",
@@ -6135,7 +6135,7 @@
         "total": 31,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07T8291NR",
@@ -6157,7 +6157,7 @@
         "total": 14,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00FQCHV3Q",
@@ -6179,7 +6179,7 @@
         "total": 16,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09K7LP436",
@@ -6195,7 +6195,7 @@
         "total": 24,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CX98BWV1",
@@ -6211,7 +6211,7 @@
         "total": 53,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00DMUL9GO",
@@ -6229,7 +6229,7 @@
         "total": 440,
         "rate_percent": 50
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B009KYBN44",
@@ -6247,7 +6247,7 @@
         "total": 8,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B009KWUDME",
@@ -6265,7 +6265,7 @@
         "total": 30,
         "rate_percent": 3
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B06XPC1KLW",
@@ -6283,7 +6283,7 @@
         "total": 8,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B011HYCVFY",
@@ -6301,7 +6301,7 @@
         "total": 396,
         "rate_percent": 50
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B078B42JZC",
@@ -6322,7 +6322,7 @@
         "total": 6,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09ND4B47X",
@@ -6340,7 +6340,7 @@
         "total": 8,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B01AT6UKK4",
@@ -6361,7 +6361,7 @@
         "total": 5,
         "rate_percent": 0.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00III0BFU",
@@ -6379,7 +6379,7 @@
         "total": 350,
         "rate_percent": 35.4
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00I5BNXTQ",
@@ -6397,7 +6397,7 @@
         "total": 12,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09693YH8K",
@@ -6418,7 +6418,7 @@
         "total": 7,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B074NSW7TS",
@@ -6439,7 +6439,7 @@
         "total": 8,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07H9N1RCQ",
@@ -6457,7 +6457,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G2VJ819R",
@@ -6478,7 +6478,7 @@
         "total": 7,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00HA7D0O4",
@@ -6496,7 +6496,7 @@
         "total": 6,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DGJBNYVY",
@@ -6512,7 +6512,7 @@
         "total": 315,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G42QB93M",
@@ -6531,7 +6531,7 @@
         "total": 156,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BZGTFF9L",
@@ -6540,17 +6540,17 @@
       "category": "オーディオ",
       "themes": [],
       "image_url": "https://m.media-amazon.com/images/I/318SlLqlx+L._SL160_.jpg",
-      "price": 7920,
+      "price": 7880,
       "discount": {
         "ref_high": 17600,
-        "rate_percent": 55
+        "rate_percent": 55.2
       },
       "deal": null,
       "points": {
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B01EUC17SW",
@@ -6566,7 +6566,7 @@
       },
       "deal": null,
       "points": null,
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GVSMPQT6",
@@ -6588,7 +6588,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0HBLHNXMD",
@@ -6610,7 +6610,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GX1MXT6P",
@@ -6632,7 +6632,7 @@
         "total": 60,
         "rate_percent": 2
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00H9YZMTY",
@@ -6651,7 +6651,7 @@
         "total": 1,
         "rate_percent": 0.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H32VS8F5",
@@ -6670,7 +6670,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H6ZF8KZZ",
@@ -6689,7 +6689,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H8362S3Q",
@@ -6711,7 +6711,7 @@
         "total": 500,
         "rate_percent": 20
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FW3QSRZF",
@@ -6733,7 +6733,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H1GTZS1V",
@@ -6755,7 +6755,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H1M55VJ7",
@@ -6777,7 +6777,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0HBVR6T86",
@@ -6799,7 +6799,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GBM2Q6CY",
@@ -6821,7 +6821,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GQSQSSYF",
@@ -6843,7 +6843,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GW97QRTP",
@@ -6865,7 +6865,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GMXDH9Q2",
@@ -6887,7 +6887,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GT4RMDK3",
@@ -6909,7 +6909,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H2963TCY",
@@ -6931,7 +6931,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H7BB462B",
@@ -6953,7 +6953,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H8SLSQHW",
@@ -6975,7 +6975,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H2LKT8BG",
@@ -6997,7 +6997,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H3NNDSQM",
@@ -7019,7 +7019,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H5W341M2",
@@ -7041,7 +7041,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H3TT4F2F",
@@ -7063,7 +7063,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0HCJFZM97",
@@ -7085,7 +7085,7 @@
         "total": 26,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H74KJFHB",
@@ -7104,7 +7104,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H93XVSFY",
@@ -7126,7 +7126,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GHM1PD84",
@@ -7148,7 +7148,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GHMTVSMW",
@@ -7170,7 +7170,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H594P8B6",
@@ -7189,7 +7189,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GVLW2VSK",
@@ -7211,7 +7211,7 @@
         "total": 50,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GVM2MRRY",
@@ -7233,7 +7233,7 @@
         "total": 50,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H2HKNVMJ",
@@ -7255,7 +7255,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FJ285HT1",
@@ -7274,7 +7274,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H8DBKM6H",
@@ -7296,7 +7296,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GZ3GTWT5",
@@ -7315,7 +7315,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H2HVBZ2M",
@@ -7334,7 +7334,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H44H9B78",
@@ -7356,7 +7356,7 @@
         "total": 60,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H9LZZFLK",
@@ -7378,7 +7378,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H1XMS5B3",
@@ -7397,7 +7397,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DMCM5QCM",
@@ -7419,7 +7419,7 @@
         "total": 36,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H8N7WZBC",
@@ -7441,7 +7441,7 @@
         "total": 50,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H2PVYKGZ",
@@ -7463,7 +7463,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GYXPPL8Z",
@@ -7485,7 +7485,7 @@
         "total": 90,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GSVMRPQ3",
@@ -7507,7 +7507,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BZYJGZ31",
@@ -7529,7 +7529,7 @@
         "total": 57,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07CB5WDH6",
@@ -7548,7 +7548,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DYCF69K9",
@@ -7567,7 +7567,7 @@
         "total": 155,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B093KG7HHW",
@@ -7589,7 +7589,7 @@
         "total": 11,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GVLPZQJC",
@@ -7611,7 +7611,7 @@
         "total": 35,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H5WB7P84",
@@ -7633,7 +7633,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FMR9YY83",
@@ -7655,29 +7655,7 @@
         "total": 298,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B0H713MRC9",
-      "title": "ワイヤレスイヤホン bluetooth イヤホン LED残量表示 AIスマート ENC通話 最大60時間再生 IPX7防水 Bluetooth6.0ノイズキャンセリング 低遅延 自動ペアリング ブルートゥースイヤホン 快適な装着感 超軽量 小型 音漏れゼロ Type-C急速充電 左右独立型 タッチ操作 iPhone/Android対応 WEB会議/通勤/通学/ゲーム/スポーツ用",
-      "url": "https://www.amazon.co.jp/dp/B0H713MRC9?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "オーディオ",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/411PiPgdcDL._SL160_.jpg",
-      "price": 1299,
-      "discount": {
-        "ref_high": 2999,
-        "rate_percent": 56.7
-      },
-      "deal": {
-        "badge": "タイムセール",
-        "end_time": "2026/09/09 23:59"
-      },
-      "points": {
-        "total": 13,
-        "rate_percent": 1
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BDRSJ4LP",
@@ -7696,7 +7674,7 @@
         "total": 3,
         "rate_percent": 0.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00HYOUSDY",
@@ -7715,7 +7693,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H5VJG759",
@@ -7734,7 +7712,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GQKT99HR",
@@ -7753,7 +7731,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07CGDBVS3",
@@ -7772,7 +7750,7 @@
         "total": 44,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H2DC3DXS",
@@ -7794,7 +7772,7 @@
         "total": 80,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00HYOUUGY",
@@ -7813,7 +7791,7 @@
         "total": 12,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0056E49MK",
@@ -7832,7 +7810,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CJZMZHTF",
@@ -7851,7 +7829,7 @@
         "total": 107,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08N4JHGJL",
@@ -7870,7 +7848,7 @@
         "total": 198,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00LUGN168",
@@ -7889,7 +7867,7 @@
         "total": 26,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DRVB4DVC",
@@ -7911,7 +7889,7 @@
         "total": 498,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FSL5MRPG",
@@ -7933,7 +7911,7 @@
         "total": 498,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GKYMNQ86",
@@ -7955,7 +7933,7 @@
         "total": 5480,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GKYN2XDH",
@@ -7977,7 +7955,7 @@
         "total": 5480,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GTFM27YL",
@@ -7999,7 +7977,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08KD938WQ",
@@ -8021,7 +7999,7 @@
         "total": 200,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BTLSCPDC",
@@ -8043,7 +8021,7 @@
         "total": 200,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CM33N6Z8",
@@ -8062,7 +8040,7 @@
         "total": 11,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G8HBTPB2",
@@ -8081,7 +8059,7 @@
         "total": 22,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GWZ2QWJD",
@@ -8103,7 +8081,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F4KM4KCH",
@@ -8122,7 +8100,7 @@
         "total": 7,
         "rate_percent": 1.1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FY4W7YVL",
@@ -8144,7 +8122,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BDG1VPN7",
@@ -8166,7 +8144,7 @@
         "total": 209,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G4M1TC7Q",
@@ -8185,7 +8163,7 @@
         "total": 105,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H6NYFCRL",
@@ -8207,7 +8185,7 @@
         "total": 16,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H4JCDHSY",
@@ -8226,7 +8204,7 @@
         "total": 27,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DYTVVLH4",
@@ -8248,7 +8226,7 @@
         "total": 120,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H6MX8178",
@@ -8270,7 +8248,7 @@
         "total": 18,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08N4TY6RV",
@@ -8289,7 +8267,7 @@
         "total": 128,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DS1ZYPB2",
@@ -8311,7 +8289,7 @@
         "total": 357,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DBQCN7HZ",
@@ -8333,7 +8311,7 @@
         "total": 1630,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DHVSR4JX",
@@ -8355,7 +8333,7 @@
         "total": 97,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BYD95D89",
@@ -8374,7 +8352,7 @@
         "total": 50,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B1Q636K7",
@@ -8393,7 +8371,7 @@
         "total": 131,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D3HLP1NM",
@@ -8415,7 +8393,7 @@
         "total": 866,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GY53DWDF",
@@ -8437,7 +8415,7 @@
         "total": 22,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08TH4KFVP",
@@ -8459,7 +8437,7 @@
         "total": 8,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DBHS1S3V",
@@ -8481,7 +8459,7 @@
         "total": 1196,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H2HL9Q53",
@@ -8503,7 +8481,7 @@
         "total": 24,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FL7663Z6",
@@ -8522,7 +8500,7 @@
         "total": 4,
         "rate_percent": 0.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07V78HMDQ",
@@ -8544,7 +8522,7 @@
         "total": 7,
         "rate_percent": 0.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G8DVFCPP",
@@ -8563,7 +8541,7 @@
         "total": 3140,
         "rate_percent": 5
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CC8ZKBVC",
@@ -8585,7 +8563,7 @@
         "total": 400,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08LGK55H8",
@@ -8604,7 +8582,7 @@
         "total": 28,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GHG2ZL9P",
@@ -8626,7 +8604,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B093B4TSPM",
@@ -8648,7 +8626,7 @@
         "total": 52,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FX431XBQ",
@@ -8670,7 +8648,7 @@
         "total": 869,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FX4YBZV4",
@@ -8692,7 +8670,7 @@
         "total": 1071,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GK93CG2T",
@@ -8714,7 +8692,7 @@
         "total": 869,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D3HJM175",
@@ -8733,7 +8711,7 @@
         "total": 695,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DWXFRJ1M",
@@ -8755,7 +8733,7 @@
         "total": 695,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D7BZR4CY",
@@ -8777,7 +8755,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B1N84L5J",
@@ -8796,7 +8774,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FQMDGDT7",
@@ -8818,7 +8796,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B082PWV4L7",
@@ -8837,7 +8815,7 @@
         "total": 70,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G3WLHTMQ",
@@ -8859,7 +8837,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F8Q8W984",
@@ -8881,7 +8859,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GJZ1TCQP",
@@ -8903,7 +8881,7 @@
         "total": 27,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GZYNKHCK",
@@ -8925,7 +8903,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0HB4YL8XK",
@@ -8947,7 +8925,7 @@
         "total": 9,
         "rate_percent": 0.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BXGPLPBF",
@@ -8969,7 +8947,7 @@
         "total": 28,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CMTQPWQ8",
@@ -8991,7 +8969,7 @@
         "total": 50,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DHYVKG2T",
@@ -9013,7 +8991,7 @@
         "total": 39,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FN3Z641Y",
@@ -9035,7 +9013,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B6RCRH22",
@@ -9057,7 +9035,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DYJHD98G",
@@ -9079,7 +9057,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CQTQ4YM5",
@@ -9098,7 +9076,7 @@
         "total": 29,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0006BLI22",
@@ -9117,7 +9095,7 @@
         "total": 38,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G48XY23B",
@@ -9139,7 +9117,7 @@
         "total": 72,
         "rate_percent": 2
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DC6XTDB7",
@@ -9158,7 +9136,7 @@
         "total": 35,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FXWVG9HR",
@@ -9180,7 +9158,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CY5CD8VF",
@@ -9202,7 +9180,7 @@
         "total": 60,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FL1BVGJD",
@@ -9224,7 +9202,7 @@
         "total": 18,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F1FYBV2G",
@@ -9246,7 +9224,7 @@
         "total": 17,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CG18ZM6J",
@@ -9268,7 +9246,7 @@
         "total": 39,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D2W4QGZG",
@@ -9290,7 +9268,7 @@
         "total": 10,
         "rate_percent": 2.1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CT857V89",
@@ -9312,7 +9290,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FS6SDJPD",
@@ -9334,7 +9312,7 @@
         "total": 36,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FL1BH9VM",
@@ -9356,7 +9334,7 @@
         "total": 17,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DG914LY9",
@@ -9378,7 +9356,7 @@
         "total": 24,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GXDDYPW7",
@@ -9400,7 +9378,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GSQN5X7J",
@@ -9422,7 +9400,7 @@
         "total": 37,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FG7DVV62",
@@ -9444,7 +9422,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H4Q4PGKG",
@@ -9466,7 +9444,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GT91K39B",
@@ -9485,7 +9463,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DDY45J4W",
@@ -9507,29 +9485,7 @@
         "total": 58,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B0H2LRYFXF",
-      "title": "65w PD 急速充電器 type-c 【世界最小クラス・4台同時に急速充電・超軽量】 ノートpc/iPad/iPhoneなど対応 ブラック",
-      "url": "https://www.amazon.co.jp/dp/B0H2LRYFXF?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "充電・モバイル",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/31UosYGUFkL._SL160_.jpg",
-      "price": 1899,
-      "discount": {
-        "ref_high": 3165,
-        "rate_percent": 40
-      },
-      "deal": {
-        "badge": "タイムセール",
-        "end_time": "2026/09/07 23:59"
-      },
-      "points": {
-        "total": 0,
-        "rate_percent": 0
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H6FTHRSG",
@@ -9548,7 +9504,7 @@
         "total": 868,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CCXW4LHR",
@@ -9570,7 +9526,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DD7B3VGB",
@@ -9592,7 +9548,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H5R995S4",
@@ -9614,7 +9570,7 @@
         "total": 38,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GZ1VLML6",
@@ -9636,7 +9592,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C2XZF3CG",
@@ -9658,7 +9614,7 @@
         "total": 42,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H1LXM95P",
@@ -9680,29 +9636,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B0H151N2D3",
-      "title": "骨伝導イヤホン bluetooth 6.1 kemeskin 水泳 IP68完全防水イヤホン 32GBメモリ内蔵 最大8000曲 こつでんどう オープンイヤーヘッドホン 8時間連続再生/通話 マイク付きヘッドセット ランニング サイクリング スポーツ 対応 ブラック",
-      "url": "https://www.amazon.co.jp/dp/B0H151N2D3?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "オーディオ",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/41rUx08hl3L._SL160_.jpg",
-      "price": 5579,
-      "discount": {
-        "ref_high": 9280,
-        "rate_percent": 39.9
-      },
-      "deal": {
-        "badge": "スマイル Sale",
-        "end_time": "2026/09/03 23:59"
-      },
-      "points": {
-        "total": 56,
-        "rate_percent": 1
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CWV5LG6M",
@@ -9724,7 +9658,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GR1FBY8T",
@@ -9746,7 +9680,7 @@
         "total": 22,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H3HKPMQ3",
@@ -9768,7 +9702,7 @@
         "total": 21,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H28N9SCF",
@@ -9790,7 +9724,7 @@
         "total": 300,
         "rate_percent": 6
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H1MD7VHS",
@@ -9812,7 +9746,7 @@
         "total": 23,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GTQFX61X",
@@ -9834,7 +9768,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D4LVMYNV",
@@ -9853,7 +9787,7 @@
         "total": 46,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F43XLHSM",
@@ -9875,7 +9809,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G5N88Z97",
@@ -9897,7 +9831,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BW3P7XS2",
@@ -9916,7 +9850,7 @@
         "total": 16,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CPDR413X",
@@ -9935,7 +9869,7 @@
         "total": 999,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FLDCGS19",
@@ -9957,7 +9891,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FCSBH974",
@@ -9979,7 +9913,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FLD9X93Y",
@@ -10001,7 +9935,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09R7L6GLH",
@@ -10020,7 +9954,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FLDBD6BV",
@@ -10042,7 +9976,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FTSQ14QX",
@@ -10064,7 +9998,7 @@
         "total": 24,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08Z7CT8C9",
@@ -10086,7 +10020,7 @@
         "total": 27,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GWM21J3D",
@@ -10108,7 +10042,7 @@
         "total": 22,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DD3Z6MK1",
@@ -10130,7 +10064,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GW8FWM45",
@@ -10152,7 +10086,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BQ71L6R9",
@@ -10174,7 +10108,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H1H7RRNJ",
@@ -10196,7 +10130,7 @@
         "total": 999,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GRFZ95PG",
@@ -10215,7 +10149,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BKTJ9X2H",
@@ -10234,7 +10168,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F1FB6PSQ",
@@ -10256,7 +10190,7 @@
         "total": 365,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GX9T9TJM",
@@ -10278,7 +10212,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09KGQFPL2",
@@ -10297,7 +10231,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G7DY99PQ",
@@ -10319,7 +10253,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GVM6R1QG",
@@ -10341,7 +10275,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B8YJMHHX",
@@ -10360,7 +10294,7 @@
         "total": 27,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0HF31DSDR",
@@ -10382,7 +10316,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09KZQJ15W",
@@ -10404,7 +10338,7 @@
         "total": 108,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G5Z4C8HC",
@@ -10426,7 +10360,7 @@
         "total": 370,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07PLX342V",
@@ -10448,7 +10382,7 @@
         "total": 7,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B1Q5T5TQ",
@@ -10467,7 +10401,7 @@
         "total": 131,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B077VKQZQQ",
@@ -10486,7 +10420,7 @@
         "total": 9,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GS5Y4FBF",
@@ -10508,7 +10442,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F1MCHFFW",
@@ -10530,7 +10464,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G64G321H",
@@ -10552,7 +10486,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G8MQZ9K3",
@@ -10574,7 +10508,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H3ZLP6K9",
@@ -10596,7 +10530,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GCZG9PQQ",
@@ -10615,7 +10549,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FJLZ6BV3",
@@ -10637,7 +10571,7 @@
         "total": 25,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B009GPMSIC",
@@ -10656,7 +10590,7 @@
         "total": 5,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G3P87H5H",
@@ -10678,7 +10612,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CZ3C9HYG",
@@ -10700,7 +10634,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DT4RGDSJ",
@@ -10722,7 +10656,7 @@
         "total": 113,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FKB92YL8",
@@ -10741,7 +10675,7 @@
         "total": 5,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GLZWT71G",
@@ -10763,7 +10697,7 @@
         "total": 63,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08XY7XXLY",
@@ -10782,7 +10716,7 @@
         "total": 5,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08P717SMC",
@@ -10801,7 +10735,7 @@
         "total": 8,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GCDQG2HW",
@@ -10823,7 +10757,7 @@
         "total": 100,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DZ1T51KS",
@@ -10845,7 +10779,7 @@
         "total": 60,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FRLVWT2D",
@@ -10867,7 +10801,7 @@
         "total": 265,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BV77RS4D",
@@ -10889,7 +10823,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09FJM24LC",
@@ -10908,7 +10842,7 @@
         "total": 330,
         "rate_percent": 6
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GCB58RFD",
@@ -10930,7 +10864,7 @@
         "total": 25,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F2F3RX72",
@@ -10952,7 +10886,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C711DS89",
@@ -10971,7 +10905,7 @@
         "total": 132,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CZD87HWR",
@@ -10990,7 +10924,7 @@
         "total": 49,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CZDCWM48",
@@ -11009,7 +10943,7 @@
         "total": 49,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GC5HPVJ5",
@@ -11028,7 +10962,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F1CK5Y4Y",
@@ -11050,7 +10984,7 @@
         "total": 9,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08T1Q61BS",
@@ -11072,7 +11006,7 @@
         "total": 5,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B06ZY6X8RH",
@@ -11091,7 +11025,7 @@
         "total": 5,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B7X65SX2",
@@ -11113,7 +11047,7 @@
         "total": 100,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CHY1ZGYB",
@@ -11135,7 +11069,7 @@
         "total": 8,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CD3RY999",
@@ -11154,7 +11088,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07FTG84SW",
@@ -11173,7 +11107,7 @@
         "total": 120,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CYRX6N2W",
@@ -11192,7 +11126,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DYTMVMHC",
@@ -11214,7 +11148,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GVXYFL7Y",
@@ -11236,7 +11170,7 @@
         "total": 117,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09T5X9YZN",
@@ -11258,7 +11192,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09W9NG8RF",
@@ -11280,7 +11214,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GHYKF9SJ",
@@ -11302,7 +11236,7 @@
         "total": 26,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FBRK8GSP",
@@ -11321,7 +11255,7 @@
         "total": 389,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DLWQC8GW",
@@ -11343,7 +11277,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B006QVAGUQ",
@@ -11362,7 +11296,7 @@
         "total": 18,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FF4JKNC6",
@@ -11384,7 +11318,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B01DNDMSLY",
@@ -11406,7 +11340,7 @@
         "total": 13,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FG2C56W5",
@@ -11428,7 +11362,7 @@
         "total": 52,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08F2866Q3",
@@ -11447,7 +11381,7 @@
         "total": 304,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CYGTW91J",
@@ -11466,7 +11400,7 @@
         "total": 21,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B004MX8346",
@@ -11485,7 +11419,7 @@
         "total": 91,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00LUGMWWW",
@@ -11504,7 +11438,7 @@
         "total": 38,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09KZF8D91",
@@ -11526,7 +11460,7 @@
         "total": 124,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DHCY37HY",
@@ -11548,7 +11482,7 @@
         "total": 198,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FWKFGW3F",
@@ -11570,7 +11504,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09Q8F12XD",
@@ -11592,7 +11526,26 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B0GXF5WHWN",
+      "title": "合計45W PD 急速充電器【4台同時充電・高出力】タイプc 充電器 4ポート（USB-C×2/USB-A×2）小型軽量 PD3.0/QC3.0/PPS/SCP対応 PSE認証済 MacBook/iPhone/Android/iPad/ノートPC対応 出張/旅行/自宅用",
+      "url": "https://www.amazon.co.jp/dp/B0GXF5WHWN?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "充電・モバイル",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/41uP7u12x9L._SL160_.jpg",
+      "price": 1108,
+      "discount": {
+        "ref_high": 1665,
+        "rate_percent": 33.5
+      },
+      "deal": null,
+      "points": {
+        "total": 0,
+        "rate_percent": 0
+      },
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DRJH4PG5",
@@ -11614,7 +11567,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DRJJGQHD",
@@ -11636,7 +11589,29 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B0DJ4LVCYD",
+      "title": "MATECH モバイルバッテリー マグセーフ 超薄型 小型 軽量(史上最薄6.9mm, 5000mAh)【MagSafe対応マグネット式/最大出力15W ワイヤレス/タイプC PD22W/iPhone12~17対応】 (MagOn Ultra Slim 5000 ブラック)",
+      "url": "https://www.amazon.co.jp/dp/B0DJ4LVCYD?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "充電・モバイル",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/31eHpx8zzfL._SL160_.jpg",
+      "price": 3990,
+      "discount": {
+        "ref_high": 5990,
+        "rate_percent": 33.4
+      },
+      "deal": {
+        "badge": "スマイル Sale",
+        "end_time": "2026/09/03 23:59"
+      },
+      "points": {
+        "total": 0,
+        "rate_percent": 0
+      },
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F99FCSX7",
@@ -11658,7 +11633,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DXF364XJ",
@@ -11680,7 +11655,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D9VF8TJJ",
@@ -11702,7 +11677,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DXF2TMFC",
@@ -11724,7 +11699,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0991MJ7VS",
@@ -11746,7 +11721,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GGB6NV54",
@@ -11768,7 +11743,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07M6Y7355",
@@ -11790,7 +11765,7 @@
         "total": 40,
         "rate_percent": 2
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CS2CWJBT",
@@ -11812,7 +11787,7 @@
         "total": 200,
         "rate_percent": 5
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BJ6LMRLZ",
@@ -11834,7 +11809,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08VS44PKP",
@@ -11853,7 +11828,7 @@
         "total": 54,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F8NJ28LB",
@@ -11872,7 +11847,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DZX7X8YB",
@@ -11894,7 +11869,7 @@
         "total": 47,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DCFSVN4F",
@@ -11916,7 +11891,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DCFXF1H1",
@@ -11938,7 +11913,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B2ZT2HRJ",
@@ -11957,7 +11932,7 @@
         "total": 89,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CF4XRB1V",
@@ -11976,7 +11951,7 @@
         "total": 11,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DHC9Q6V9",
@@ -11998,7 +11973,7 @@
         "total": 162,
         "rate_percent": 3
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09WTG8RP6",
@@ -12017,7 +11992,7 @@
         "total": 67,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0071FOEZY",
@@ -12036,7 +12011,7 @@
         "total": 37,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0002IS0IO",
@@ -12055,7 +12030,7 @@
         "total": 41,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0002IS0IY",
@@ -12074,7 +12049,7 @@
         "total": 41,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D1XSKZRJ",
@@ -12096,7 +12071,7 @@
         "total": 38,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0762QKH4F",
@@ -12115,7 +12090,7 @@
         "total": 37,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0002QYRWY",
@@ -12134,7 +12109,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08F7V9T3K",
@@ -12156,7 +12131,7 @@
         "total": 88,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F6CSMH5Q",
@@ -12178,7 +12153,7 @@
         "total": 95,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DGGP79PZ",
@@ -12200,29 +12175,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B0CKWSDCC7",
-      "title": "アイリスオーヤマ ノートパソコンスタンド ノートPC スタンド タブレットスタンド 教卓 スタンド高さ/角度調整可能 姿勢改善 折り畳み式 超軽量ポータブルタイプ ブラック NPS-PBK",
-      "url": "https://www.amazon.co.jp/dp/B0CKWSDCC7?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "デスク・PC周辺",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/31YUq28VCeL._SL160_.jpg",
-      "price": 1680,
-      "discount": {
-        "ref_high": 2481,
-        "rate_percent": 32.3
-      },
-      "deal": {
-        "badge": "スマイル Sale",
-        "end_time": "2026/09/03 23:59"
-      },
-      "points": {
-        "total": 17,
-        "rate_percent": 1
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GQ95JF1S",
@@ -12244,7 +12197,7 @@
         "total": 47,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BJP4CWCL",
@@ -12266,7 +12219,7 @@
         "total": 101,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09C5HYKWX",
@@ -12288,7 +12241,7 @@
         "total": 14,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D8RSX6W2",
@@ -12310,7 +12263,7 @@
         "total": 34,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FC2CZF7V",
@@ -12332,7 +12285,7 @@
         "total": 61,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GQH33D12",
@@ -12354,7 +12307,7 @@
         "total": 9,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CHVZHLZ1",
@@ -12376,7 +12329,7 @@
         "total": 33,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0HCTW9N64",
@@ -12398,7 +12351,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DJCXW1H3",
@@ -12417,7 +12370,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G592L5KV",
@@ -12439,7 +12392,7 @@
         "total": 48,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D5VC1XPQ",
@@ -12458,7 +12411,7 @@
         "total": 22,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CYPQQYPP",
@@ -12477,7 +12430,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F2HXR2ZS",
@@ -12499,7 +12452,7 @@
         "total": 900,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08X11GD52",
@@ -12521,7 +12474,7 @@
         "total": 31,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CHJMXSLN",
@@ -12543,7 +12496,7 @@
         "total": 21,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B079C31J53",
@@ -12565,7 +12518,7 @@
         "total": 17,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F32DWXX2",
@@ -12587,7 +12540,7 @@
         "total": 207,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B3D9XW8X",
@@ -12609,7 +12562,7 @@
         "total": 25,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DWLLTG6N",
@@ -12631,7 +12584,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B091BGMKYS",
@@ -12653,7 +12606,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DWK4XHQ4",
@@ -12675,7 +12628,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09S3LKT4X",
@@ -12694,7 +12647,7 @@
         "total": 15,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0956X785M",
@@ -12716,7 +12669,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B005EUPRB8",
@@ -12738,7 +12691,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GDZCCH3D",
@@ -12760,7 +12713,7 @@
         "total": 63,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DPX7W84T",
@@ -12782,29 +12735,7 @@
         "total": 70,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B0F2F9L51W",
-      "title": "Anker Soundcore Q30i ネイビー",
-      "url": "https://www.amazon.co.jp/dp/B0F2F9L51W?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "オーディオ",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/31QIm9i4aUL._SL160_.jpg",
-      "price": 6990,
-      "discount": {
-        "ref_high": 9990,
-        "rate_percent": 30
-      },
-      "deal": {
-        "badge": "スマイル Sale",
-        "end_time": "2026/09/03 23:59"
-      },
-      "points": {
-        "total": 70,
-        "rate_percent": 1
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DPX84MBM",
@@ -12826,7 +12757,29 @@
         "total": 70,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B0F2F9L51W",
+      "title": "Anker Soundcore Q30i ネイビー",
+      "url": "https://www.amazon.co.jp/dp/B0F2F9L51W?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "オーディオ",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/31QIm9i4aUL._SL160_.jpg",
+      "price": 6990,
+      "discount": {
+        "ref_high": 9990,
+        "rate_percent": 30
+      },
+      "deal": {
+        "badge": "スマイル Sale",
+        "end_time": "2026/09/03 23:59"
+      },
+      "points": {
+        "total": 70,
+        "rate_percent": 1
+      },
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D7ZLPSJG",
@@ -12848,7 +12801,7 @@
         "total": 140,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C76ZD7KV",
@@ -12870,7 +12823,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F1SJR713",
@@ -12892,7 +12845,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08MJR93YJ",
@@ -12914,7 +12867,7 @@
         "total": 24,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DFYFJZGJ",
@@ -12936,7 +12889,7 @@
         "total": 28,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DKJD36DN",
@@ -12958,7 +12911,7 @@
         "total": 28,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FK9YH385",
@@ -12980,7 +12933,7 @@
         "total": 700,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F2HTPG3D",
@@ -13002,7 +12955,7 @@
         "total": 700,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FX7M29RP",
@@ -13024,7 +12977,7 @@
         "total": 6999,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FB3Y46SB",
@@ -13043,7 +12996,7 @@
         "total": 279,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CMD3GZKF",
@@ -13065,7 +13018,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H24K5KLV",
@@ -13087,7 +13040,7 @@
         "total": 56,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GK1NRNM1",
@@ -13109,7 +13062,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H93JTYM5",
@@ -13131,7 +13084,7 @@
         "total": 398,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DJ33QLXN",
@@ -13153,7 +13106,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D6GJLJFS",
@@ -13175,7 +13128,7 @@
         "total": 124,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09L42VBH5",
@@ -13194,7 +13147,7 @@
         "total": 32,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09XF23WY2",
@@ -13216,7 +13169,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09XF3HRGW",
@@ -13238,7 +13191,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09RB5CH8K",
@@ -13260,7 +13213,7 @@
         "total": 110,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G57GHLT2",
@@ -13279,7 +13232,7 @@
         "total": 171,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00J7OT0M4",
@@ -13298,7 +13251,7 @@
         "total": 148,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DVZ1S2JW",
@@ -13317,7 +13270,7 @@
         "total": 17,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07Q2WW8FM",
@@ -13336,7 +13289,7 @@
         "total": 78,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D9XVNBR2",
@@ -13355,7 +13308,7 @@
         "total": 62,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00QQYABW6",
@@ -13377,29 +13330,7 @@
         "total": 42,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B07KY5D1KS",
-      "title": "寝袋 シュラフ マミー型 キャンプ 車中泊 防災用 アウトドア 簡易防水 オールシーズン HAWK GEAR ホークギア 冬用 (カーキ)",
-      "url": "https://www.amazon.co.jp/dp/B07KY5D1KS?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "アウトドア",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/41Ob344U3YL._SL160_.jpg",
-      "price": 4241,
-      "discount": {
-        "ref_high": 5990,
-        "rate_percent": 29.2
-      },
-      "deal": {
-        "badge": "スマイル Sale",
-        "end_time": "2026/09/03 23:59"
-      },
-      "points": {
-        "total": 42,
-        "rate_percent": 1
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0785HVM54",
@@ -13421,7 +13352,29 @@
         "total": 42,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B07KY5D1KS",
+      "title": "寝袋 シュラフ マミー型 キャンプ 車中泊 防災用 アウトドア 簡易防水 オールシーズン HAWK GEAR ホークギア 冬用 (カーキ)",
+      "url": "https://www.amazon.co.jp/dp/B07KY5D1KS?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "アウトドア",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/41Ob344U3YL._SL160_.jpg",
+      "price": 4241,
+      "discount": {
+        "ref_high": 5990,
+        "rate_percent": 29.2
+      },
+      "deal": {
+        "badge": "スマイル Sale",
+        "end_time": "2026/09/03 23:59"
+      },
+      "points": {
+        "total": 42,
+        "rate_percent": 1
+      },
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CF9VWMK5",
@@ -13440,7 +13393,7 @@
         "total": 47,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DDNQB5HM",
@@ -13459,7 +13412,7 @@
         "total": 119,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D9XVQG7S",
@@ -13478,7 +13431,7 @@
         "total": 23,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H1L3CM15",
@@ -13500,7 +13453,7 @@
         "total": 141,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D4Z8LWXC",
@@ -13522,7 +13475,7 @@
         "total": 59,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F62RQ2QM",
@@ -13544,7 +13497,7 @@
         "total": 85,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08CXJ3HMF",
@@ -13566,7 +13519,7 @@
         "total": 50,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09919MPYD",
@@ -13588,7 +13541,7 @@
         "total": 50,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CVPR5LM4",
@@ -13607,7 +13560,7 @@
         "total": 39,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09CYM8MH5",
@@ -13626,7 +13579,7 @@
         "total": 88,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09Z2QYYD1",
@@ -13645,7 +13598,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D9XXV9LQ",
@@ -13664,7 +13617,7 @@
         "total": 27,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CD3RMPV3",
@@ -13683,7 +13636,7 @@
         "total": 63,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07PP2RB25",
@@ -13705,7 +13658,7 @@
         "total": 6,
         "rate_percent": 0.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C3C4GYBX",
@@ -13724,7 +13677,7 @@
         "total": 49,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07MJ97QWZ",
@@ -13743,7 +13696,7 @@
         "total": 21,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07968SHZX",
@@ -13762,7 +13715,7 @@
         "total": 7,
         "rate_percent": 1.1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F21VBXKK",
@@ -13784,7 +13737,7 @@
         "total": 27,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CR6J2HCK",
@@ -13806,7 +13759,26 @@
         "total": 46,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B0BVPNJP1C",
+      "title": "ソニー(SONY) ワイヤレスノイズキャンセリングヘッドホン WH-CH720N: ノイズキャンセリング搭載/Bluetooth対応/軽量設計/マイク搭載/外音取り込み搭載/360Reality Audio対応/ブラック WH-CH720N B",
+      "url": "https://www.amazon.co.jp/dp/B0BVPNJP1C?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "オーディオ",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/41h9XGC5oAL._SL160_.jpg",
+      "price": 15820,
+      "discount": {
+        "ref_high": 22000,
+        "rate_percent": 28.1
+      },
+      "deal": null,
+      "points": {
+        "total": 0,
+        "rate_percent": 0
+      },
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BN14RRL7",
@@ -13825,7 +13797,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D6GH36HH",
@@ -13847,7 +13819,7 @@
         "total": 119,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B01ABDUITS",
@@ -13866,7 +13838,7 @@
         "total": 43,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BTDCZT1M",
@@ -13888,7 +13860,7 @@
         "total": 21,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CX4C1TVK",
@@ -13910,7 +13882,7 @@
         "total": 584,
         "rate_percent": 9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00S0E4JW8",
@@ -13929,7 +13901,7 @@
         "total": 7,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08TLVKBMJ",
@@ -13951,7 +13923,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GFHK5RJR",
@@ -13970,7 +13942,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CNXDLJQ5",
@@ -13992,7 +13964,7 @@
         "total": 29,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DSL5BZGY",
@@ -14014,7 +13986,7 @@
         "total": 29,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GW85Q98Z",
@@ -14036,26 +14008,7 @@
         "total": 278,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B0BVPNJP1C",
-      "title": "ソニー(SONY) ワイヤレスノイズキャンセリングヘッドホン WH-CH720N: ノイズキャンセリング搭載/Bluetooth対応/軽量設計/マイク搭載/外音取り込み搭載/360Reality Audio対応/ブラック WH-CH720N B",
-      "url": "https://www.amazon.co.jp/dp/B0BVPNJP1C?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "オーディオ",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/41h9XGC5oAL._SL160_.jpg",
-      "price": 15980,
-      "discount": {
-        "ref_high": 22000,
-        "rate_percent": 27.4
-      },
-      "deal": null,
-      "points": {
-        "total": 160,
-        "rate_percent": 1
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GVRS12C3",
@@ -14074,7 +14027,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B086PSF44H",
@@ -14096,7 +14049,7 @@
         "total": 12,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B1N7GZDJ",
@@ -14115,7 +14068,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D6GHLFDJ",
@@ -14137,7 +14090,7 @@
         "total": 228,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CXHNGDC1",
@@ -14159,7 +14112,7 @@
         "total": 80,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BC142H1L",
@@ -14181,7 +14134,7 @@
         "total": 100,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H2V7R7Q2",
@@ -14203,7 +14156,7 @@
         "total": 27,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CFWPQTLM",
@@ -14225,7 +14178,7 @@
         "total": 25,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FBRPGLKF",
@@ -14247,7 +14200,7 @@
         "total": 80,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GP7R9VQ6",
@@ -14269,7 +14222,29 @@
         "total": 47,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B0GP7W2HGZ",
+      "title": "加湿器 大容量 卓上 4L 超音波式 加湿器. 上から給水 3-in-1 アロマ対応 リモコン おしゃれ 静音 除菌 お手入れ簡単 ホワイト",
+      "url": "https://www.amazon.co.jp/dp/B0GP7W2HGZ?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "スマートホーム・家電",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/411jclGo+RL._SL160_.jpg",
+      "price": 4749,
+      "discount": {
+        "ref_high": 6499,
+        "rate_percent": 26.9
+      },
+      "deal": {
+        "badge": "スマイル Sale",
+        "end_time": "2026/09/03 23:59"
+      },
+      "points": {
+        "total": 47,
+        "rate_percent": 1
+      },
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00LUGN0VY",
@@ -14288,7 +14263,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FTM9YY3Y",
@@ -14310,7 +14285,7 @@
         "total": 19,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GVXXFVWT",
@@ -14332,7 +14307,7 @@
         "total": 198,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DHVSX5HY",
@@ -14351,7 +14326,7 @@
         "total": 137,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F3X9RLT6",
@@ -14370,29 +14345,7 @@
         "total": 129,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B0GWL8R5BR",
-      "title": "KOORUI ゲーミングモニター 27インチ 320Hz(FHD) 160Hz(4K) デュアル解像度 IPSパネル 1ms ブラック (HDMI2.1×2/DisplayPort1.4/VESA対応/高さ調整/縦横回転/HDR400/Adaptive Sync)",
-      "url": "https://www.amazon.co.jp/dp/B0GWL8R5BR?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "デスク・PC周辺",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/51mzTiDrZmL._SL160_.jpg",
-      "price": 36600,
-      "discount": {
-        "ref_high": 49800,
-        "rate_percent": 26.5
-      },
-      "deal": {
-        "badge": "タイムセール",
-        "end_time": "2026/09/07 23:59"
-      },
-      "points": {
-        "total": 366,
-        "rate_percent": 1
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DJ7293PM",
@@ -14414,7 +14367,7 @@
         "total": 66,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DP2KTYTC",
@@ -14436,7 +14389,7 @@
         "total": 220,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DP2KCT8V",
@@ -14458,7 +14411,7 @@
         "total": 220,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CM62VG5H",
@@ -14477,7 +14430,7 @@
         "total": 56,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BVPS2FFK",
@@ -14496,7 +14449,7 @@
         "total": 163,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DSBNYRKS",
@@ -14518,7 +14471,7 @@
         "total": 37,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BJPCKYSK",
@@ -14537,7 +14490,7 @@
         "total": 48,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B077NG51J8",
@@ -14559,7 +14512,7 @@
         "total": 51,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07M7D4Y5D",
@@ -14578,7 +14531,7 @@
         "total": 118,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FQ5PNWY5",
@@ -14597,7 +14550,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B088FMRW7L",
@@ -14619,7 +14572,7 @@
         "total": 200,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FW4TM219",
@@ -14641,7 +14594,7 @@
         "total": 18,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DJ359Y5F",
@@ -14663,7 +14616,7 @@
         "total": 89,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DXQ6V5LV",
@@ -14685,7 +14638,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B4T71SW2",
@@ -14704,7 +14657,7 @@
         "total": 90,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GLFF1MX4",
@@ -14726,7 +14679,7 @@
         "total": 32,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GLFCNHDF",
@@ -14748,7 +14701,7 @@
         "total": 32,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DMHRXB9Z",
@@ -14767,26 +14720,7 @@
         "total": 32,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B09377HXFX",
-      "title": "バッファロー SDカード 64GB 100MB/s UHS-1 Class1 VideoSpeedClass10 RSDC-064U11HA/N",
-      "url": "https://www.amazon.co.jp/dp/B09377HXFX?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "カメラ・撮影機材",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/41zCkdfEcFS._SL160_.jpg",
-      "price": 4900,
-      "discount": {
-        "ref_high": 6580,
-        "rate_percent": 25.5
-      },
-      "deal": null,
-      "points": {
-        "total": 0,
-        "rate_percent": 0
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BC135WFD",
@@ -14808,7 +14742,7 @@
         "total": 105,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FD9QLPFB",
@@ -14827,7 +14761,7 @@
         "total": 220,
         "rate_percent": 1.1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C6FFQLTN",
@@ -14849,7 +14783,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BP67HQ9W",
@@ -14871,29 +14805,7 @@
         "total": 247,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B0054TWH9E",
-      "title": "【Amazon.co.jp限定】MSI ビジネスモニター PRO MP273U 27インチ/4K UHD/IPSパネル/60Hz/4ms(GTG)/スピーカー/HDR/HDMI 2.0b/DP1.4a/VESA対応/メーカー3年保証",
-      "url": "https://www.amazon.co.jp/dp/B0054TWH9E?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "デスク・PC周辺",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/41hgV3tpLDL._SL160_.jpg",
-      "price": 29800,
-      "discount": {
-        "ref_high": 39800,
-        "rate_percent": 25.1
-      },
-      "deal": {
-        "badge": "タイムセール",
-        "end_time": "2026/09/08 23:59"
-      },
-      "points": {
-        "total": 298,
-        "rate_percent": 1
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FX5GJ7NM",
@@ -14915,7 +14827,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B095RLRDGR",
@@ -14934,7 +14846,7 @@
         "total": 67,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FJRCJ1SN",
@@ -14953,7 +14865,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D9YMNXZL",
@@ -14975,7 +14887,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H4FP2M81",
@@ -14997,7 +14909,7 @@
         "total": 7,
         "rate_percent": 0.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B6BV5JPY",
@@ -15019,7 +14931,7 @@
         "total": 7,
         "rate_percent": 0.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BXDQS4BD",
@@ -15041,7 +14953,7 @@
         "total": 60,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09WQN87HM",
@@ -15060,7 +14972,7 @@
         "total": 15,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FWRJHBSF",
@@ -15082,7 +14994,7 @@
         "total": 90,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GY8C3LCG",
@@ -15101,7 +15013,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GWM75N59",
@@ -15123,7 +15035,7 @@
         "total": 119,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CW35K23C",
@@ -15142,7 +15054,7 @@
         "total": 119,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D5MDD9F7",
@@ -15164,7 +15076,7 @@
         "total": 262,
         "rate_percent": 5
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DRP1F6R7",
@@ -15186,7 +15098,7 @@
         "total": 75,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F6L9ZDC3",
@@ -15205,7 +15117,7 @@
         "total": 133,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CKFDV356",
@@ -15224,7 +15136,7 @@
         "total": 190,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C2YB5488",
@@ -15243,7 +15155,7 @@
         "total": 7,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D4DYZQ5T",
@@ -15265,7 +15177,7 @@
         "total": 23,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F1N1BC2D",
@@ -15287,7 +15199,7 @@
         "total": 149,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DZ2D6P65",
@@ -15309,7 +15221,7 @@
         "total": 437,
         "rate_percent": 2
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B01ABDUMYY",
@@ -15328,7 +15240,7 @@
         "total": 32,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G5L9MG9T",
@@ -15350,7 +15262,7 @@
         "total": 9,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DT9MMZTL",
@@ -15372,7 +15284,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CV7VVPDD",
@@ -15394,7 +15306,7 @@
         "total": 27,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FF9W6MC9",
@@ -15416,7 +15328,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BJKFMRRR",
@@ -15435,7 +15347,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07M7G7X1V",
@@ -15457,7 +15369,7 @@
         "total": 90,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B5ZF1X9G",
@@ -15476,7 +15388,7 @@
         "total": 93,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09XZTM9QD",
@@ -15498,7 +15410,7 @@
         "total": 26,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B073JJBCXP",
@@ -15520,7 +15432,7 @@
         "total": 33,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CH2X5LBX",
@@ -15542,7 +15454,7 @@
         "total": 37,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G2JYGKGJ",
@@ -15564,7 +15476,7 @@
         "total": 15,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DDKK9DRV",
@@ -15583,7 +15495,7 @@
         "total": 75,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FWC7ZSTK",
@@ -15605,7 +15517,7 @@
         "total": 38,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H5JSJ5TS",
@@ -15627,7 +15539,7 @@
         "total": 19,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DBT21N2L",
@@ -15649,7 +15561,7 @@
         "total": 76,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GTKTWHV3",
@@ -15671,7 +15583,7 @@
         "total": 150,
         "rate_percent": 3
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07DH4W37W",
@@ -15690,26 +15602,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B0B3HTJ1TK",
-      "title": "【旧品】STEPHEN KNOLL(スティーブン ノル)モイスチュアコントロール シャンプー 詰め替え 400ml",
-      "url": "https://www.amazon.co.jp/dp/B0B3HTJ1TK?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "日用品・食品",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/41r9o8zEWlL._SL160_.jpg",
-      "price": 962,
-      "discount": {
-        "ref_high": 1263,
-        "rate_percent": 23.8
-      },
-      "deal": null,
-      "points": {
-        "total": 10,
-        "rate_percent": 1
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B089W4Z1X7",
@@ -15728,7 +15621,7 @@
         "total": 68,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0G644ZBVN",
@@ -15747,7 +15640,7 @@
         "total": 380,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D21R5317",
@@ -15769,29 +15662,7 @@
         "total": 248,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B0CL8R7TV5",
-      "title": "Anker Charger (20W, 2-Port) with USB-C ＆ USB-C ケーブル ブラック",
-      "url": "https://www.amazon.co.jp/dp/B0CL8R7TV5?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "充電・モバイル",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/21uJ-xqua1L._SL160_.jpg",
-      "price": 1290,
-      "discount": {
-        "ref_high": 1690,
-        "rate_percent": 23.7
-      },
-      "deal": {
-        "badge": "スマイル Sale",
-        "end_time": "2026/09/03 23:59"
-      },
-      "points": {
-        "total": 13,
-        "rate_percent": 1
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CXDNGCP3",
@@ -15810,7 +15681,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D3V4H6QV",
@@ -15832,7 +15703,7 @@
         "total": 15,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DPRBZQ9X",
@@ -15851,7 +15722,7 @@
         "total": 138,
         "rate_percent": 0.9
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00HQAT7CO",
@@ -15873,7 +15744,7 @@
         "total": 63,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F4BS5NYZ",
@@ -15892,7 +15763,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GGYFYWMD",
@@ -15911,7 +15782,7 @@
         "total": 40,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GSQF82D7",
@@ -15933,7 +15804,7 @@
         "total": 230,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CJ1Y1Q71",
@@ -15955,7 +15826,7 @@
         "total": 100,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FZZWCFJH",
@@ -15974,7 +15845,7 @@
         "total": 25,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07XB52FD7",
@@ -15993,7 +15864,7 @@
         "total": 8,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DM1G9TSY",
@@ -16012,7 +15883,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F4KLKXB4",
@@ -16031,7 +15902,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B079C1K6DH",
@@ -16050,7 +15921,7 @@
         "total": 100,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09MS61HDW",
@@ -16069,7 +15940,7 @@
         "total": 100,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B06XCPQTBS",
@@ -16091,7 +15962,7 @@
         "total": 220,
         "rate_percent": 2
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C4P51G18",
@@ -16113,7 +15984,26 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B0GKM47GV5",
+      "title": "【2026新型】HUANUO (ファーノー) モニターアーム デュアル FLOWLIFTメカスプリング 13～32インチ対応 耐荷重2～9kg",
+      "url": "https://www.amazon.co.jp/dp/B0GKM47GV5?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "デスク・PC周辺",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/41ZHUt47YpL._SL160_.jpg",
+      "price": 5399,
+      "discount": {
+        "ref_high": 6999,
+        "rate_percent": 22.9
+      },
+      "deal": null,
+      "points": {
+        "total": 70,
+        "rate_percent": 1.3
+      },
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C6MK4LXR",
@@ -16135,7 +16025,7 @@
         "total": 85,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C6ML9BXD",
@@ -16157,7 +16047,7 @@
         "total": 85,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C6MJQHCV",
@@ -16179,7 +16069,7 @@
         "total": 85,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D1XNB281",
@@ -16201,7 +16091,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B000FQOP6E",
@@ -16220,7 +16110,7 @@
         "total": 6,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BCVHZBWH",
@@ -16242,7 +16132,7 @@
         "total": 30,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0D86TL4BY",
@@ -16264,7 +16154,7 @@
         "total": 45,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0097280D6",
@@ -16283,7 +16173,7 @@
         "total": 6,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BWM4GVPY",
@@ -16305,7 +16195,29 @@
         "total": 54,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B09G2XJQG2",
+      "title": "Anker USB-C to USB-C Cable (3 ft, 240W, Silicone)",
+      "url": "https://www.amazon.co.jp/dp/B09G2XJQG2?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "充電・モバイル",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/31EY2HNDHDL._SL160_.jpg",
+      "price": 1390,
+      "discount": {
+        "ref_high": 1790,
+        "rate_percent": 22.3
+      },
+      "deal": {
+        "badge": "スマイル Sale",
+        "end_time": "2026/09/03 23:59"
+      },
+      "points": {
+        "total": 14,
+        "rate_percent": 1
+      },
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CXCVKTQN",
@@ -16324,7 +16236,7 @@
         "total": 59,
         "rate_percent": 2.6
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BHMP14QS",
@@ -16346,7 +16258,7 @@
         "total": 64,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DTP9N329",
@@ -16368,7 +16280,7 @@
         "total": 70,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H1LPQZWQ",
@@ -16390,7 +16302,7 @@
         "total": 70,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H6VGY1TT",
@@ -16409,7 +16321,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H4ZMRH1R",
@@ -16431,7 +16343,7 @@
         "total": 140,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GVSL5967",
@@ -16453,7 +16365,7 @@
         "total": 280,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GLPGZBX4",
@@ -16475,7 +16387,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09Q5SHDR3",
@@ -16494,7 +16406,7 @@
         "total": 36,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CJXHQZ7S",
@@ -16516,7 +16428,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0GSPF2B5B",
@@ -16538,7 +16450,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0FLQ98QF4",
@@ -16560,7 +16472,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0H6W2GKDL",
@@ -16582,7 +16494,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0HF86C5H6",
@@ -16604,7 +16516,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07VSZ7HJQ",
@@ -16623,7 +16535,7 @@
         "total": 111,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DMJCSK1T",
@@ -16642,7 +16554,7 @@
         "total": 19,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CVNB7LCC",
@@ -16664,7 +16576,7 @@
         "total": 19,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BCK5KFTR",
@@ -16686,7 +16598,7 @@
         "total": 24,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CPL6Z9JR",
@@ -16708,7 +16620,7 @@
         "total": 55,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C3R4QFPR",
@@ -16730,7 +16642,7 @@
         "total": 55,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0F596Q3KH",
@@ -16752,7 +16664,7 @@
         "total": 55,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0C3R4W7F7",
@@ -16774,7 +16686,7 @@
         "total": 55,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B00VTJS58U",
@@ -16796,7 +16708,7 @@
         "total": 24,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08CB1G667",
@@ -16818,7 +16730,7 @@
         "total": 26,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B09BC44BVH",
@@ -16837,7 +16749,7 @@
         "total": 926,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DBVGVVRL",
@@ -16859,7 +16771,7 @@
         "total": 0,
         "rate_percent": 0
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0BDL8HC38",
@@ -16881,7 +16793,7 @@
         "total": 10,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0CV5HXQ2H",
@@ -16900,7 +16812,7 @@
         "total": 780,
         "rate_percent": 10
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DC66T23N",
@@ -16922,7 +16834,7 @@
         "total": 8,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B07HRQMV4M",
@@ -16941,7 +16853,7 @@
         "total": 50,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B093L5CMMT",
@@ -16963,29 +16875,7 @@
         "total": 15,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
-    },
-    {
-      "asin": "B093L53HM4",
-      "title": "Anker PowerLine III Flow USB-C & USB-C ケーブル (1.8m クラウドホワイト)",
-      "url": "https://www.amazon.co.jp/dp/B093L53HM4?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
-      "category": "充電・モバイル",
-      "themes": [],
-      "image_url": "https://m.media-amazon.com/images/I/31epdG9DPLL._SL160_.jpg",
-      "price": 1490,
-      "discount": {
-        "ref_high": 1890,
-        "rate_percent": 21.2
-      },
-      "deal": {
-        "badge": "スマイル Sale",
-        "end_time": "2026/09/03 23:59"
-      },
-      "points": {
-        "total": 15,
-        "rate_percent": 1
-      },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B005KDI1RG",
@@ -17004,7 +16894,7 @@
         "total": 20,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0B49G92W3",
@@ -17026,7 +16916,7 @@
         "total": 57,
         "rate_percent": 2
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B0DCG2DBDL",
@@ -17048,7 +16938,7 @@
         "total": 43,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
     },
     {
       "asin": "B08Z76S82Y",
@@ -17067,7 +16957,114 @@
         "total": 35,
         "rate_percent": 1
       },
-      "fetched_at": "2026/08/31 03:25"
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B0FH8WZFMD",
+      "title": "TOMOUNT ソロテント ドームテント 軽量 2ルームテント 登山 40Dナイロン PU3000mm インナー付き 煙突穴付き コンパクト",
+      "url": "https://www.amazon.co.jp/dp/B0FH8WZFMD?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "アウトドア",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/31u4UdwNe2L._SL160_.jpg",
+      "price": 18998,
+      "discount": {
+        "ref_high": 23999,
+        "rate_percent": 20.8
+      },
+      "deal": {
+        "badge": "スマイル Sale",
+        "end_time": "2026/09/03 23:59"
+      },
+      "points": {
+        "total": 0,
+        "rate_percent": 0
+      },
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B0DZ1TGX6T",
+      "title": "UGREEN Zapix【小型・軽量／10000mAh／USB－C＆USB－A／PD20W／2台同時充電】モバイルバッテリー 灰色 PB507",
+      "url": "https://www.amazon.co.jp/dp/B0DZ1TGX6T?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "充電・モバイル",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/21yWDfPjQgL._SL160_.jpg",
+      "price": 2280,
+      "discount": {
+        "ref_high": 2880,
+        "rate_percent": 20.8
+      },
+      "deal": {
+        "badge": "スマイル Sale",
+        "end_time": "2026/09/03 23:59"
+      },
+      "points": {
+        "total": 23,
+        "rate_percent": 1
+      },
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B0BSF4XF44",
+      "title": "オムロン デジタル自動血圧計 HEM-1010シリーズ HCR-1602",
+      "url": "https://www.amazon.co.jp/dp/B0BSF4XF44?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "健康・生活",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/31l-L8LSOKL._SL160_.jpg",
+      "price": 17424,
+      "discount": {
+        "ref_high": 21979,
+        "rate_percent": 20.7
+      },
+      "deal": null,
+      "points": {
+        "total": 174,
+        "rate_percent": 1
+      },
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B0G1RHJ4Z4",
+      "title": "[エルラノ] カメラリュック 上下2気室 一眼レフ ミラーレス対応 10L PC収納 撥水加工 C4",
+      "url": "https://www.amazon.co.jp/dp/B0G1RHJ4Z4?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "カメラ・撮影機材",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/41Ug6cv14HL._SL160_.jpg",
+      "price": 4680,
+      "discount": {
+        "ref_high": 5899,
+        "rate_percent": 20.7
+      },
+      "deal": {
+        "badge": "スマイル Sale",
+        "end_time": "2026/09/03 23:59"
+      },
+      "points": {
+        "total": 47,
+        "rate_percent": 1
+      },
+      "fetched_at": "2026/08/31 08:08"
+    },
+    {
+      "asin": "B0FH6C1TXC",
+      "title": "[エルラノ] カメラリュック 上下2気室 一眼レフ ミラーレス対応 10L PC収納 撥水加工 C4",
+      "url": "https://www.amazon.co.jp/dp/B0FH6C1TXC?tag=yokoichi-22&linkCode=ogi&th=1&psc=1",
+      "category": "カメラ・撮影機材",
+      "themes": [],
+      "image_url": "https://m.media-amazon.com/images/I/41sZgl0bsJL._SL160_.jpg",
+      "price": 4680,
+      "discount": {
+        "ref_high": 5899,
+        "rate_percent": 20.7
+      },
+      "deal": {
+        "badge": "スマイル Sale",
+        "end_time": "2026/09/03 23:59"
+      },
+      "points": {
+        "total": 47,
+        "rate_percent": 1
+      },
+      "fetched_at": "2026/08/31 08:08"
     }
   ]
 }
